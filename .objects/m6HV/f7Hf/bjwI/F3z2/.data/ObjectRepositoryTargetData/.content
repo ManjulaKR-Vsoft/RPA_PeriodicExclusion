@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F4pMmwxAhkiCA1XJcNOXjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" DesignTimeRectangle="69, 528, 1237, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ReasonForExclusion*' tag='TEXTAREA' type='' class='undefined  form-control d-inline-block' aaname='Reason For Exclusion*' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="5efae332-6e70-49b4-a92b-8391568f7ee1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0a2055a8-0952-499b-b138-eff29feea849" CvTextArea="69, 515, 128, 13" CvTextArgument="Reason For Exclusion*" CvType="Text" DesignTimeRectangle="69, 513, 128, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Reason For Exclusion*' tag='LABEL' type='' class='mat-selected mat-label' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Reason For Exclusion*' /&gt;" Guid="29b7e4a8-6bd5-4c4c-9163-e2b62fb786a8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8111b925ba67ef59209bbabe5e9626d4.png" xmlns="">0z7J0t-KeMUazTTYmbTC8Gg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

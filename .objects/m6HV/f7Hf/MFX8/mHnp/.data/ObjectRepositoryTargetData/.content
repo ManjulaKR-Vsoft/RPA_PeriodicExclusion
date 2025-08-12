@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EcCNVfCaBkWaNEAidoNfyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="d0ea089b-f50c-4d3d-8a48-80bb1b3b7e9c" CvTextArea="39, 202, 288, 25" CvTextArgument="Product Exclusion Advance" CvType="Text" DesignTimeRectangle="40, 199, 1310, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="880b63b2-ab3b-4393-9602-976ae1b93974" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d0ea089b-f50c-4d3d-8a48-80bb1b3b7e9c" CvElementArea="51, 272, 18, 18" CvTextArea="74, 274, 140, 15" CvTextArgument="Select By Franchise" CvType="RadioButton" DesignTimeRectangle="54, 271, 160, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='mr-5' aaname='Select By Franchise' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select By Franchise' /&gt;" Guid="c3e9e86f-425d-46da-a7bd-24cfe827ae57" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9cb6f3ea47fd65b3ab03bf1d74e1804.png" xmlns="">0JJvZDMxw5EODBo2409IQ8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

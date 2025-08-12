@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select All",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "P0v9P60hJkeN9OkmFRclLA",
+  "Reference": "mEDzMWy4KESA-HIzYnwmGQ/P0v9P60hJkeN9OkmFRclLA",
+  "ParentRef": "mEDzMWy4KESA-HIzYnwmGQ/bjwIe8SO2E2QmptjJ3Ipjw",
+  "Created": "2025-07-18T01:10:17.5958682Z",
+  "Updated": "2025-07-18T01:10:17.5958682Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

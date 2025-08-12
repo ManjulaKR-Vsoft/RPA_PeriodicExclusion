@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1kEIB1VwG0Cz1QvRruN5FA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qafedsso2.yum.com/idp/SSO.saml2" CVScreenId="37bb300d-0869-41da-b354-f4b686054586" CvElementArea="752, 314, 325, 37" CvType="InputBox" DesignTimeRectangle="754, 319, 322, 33" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="af9e396b-ff5f-43c5-892a-782036975cb6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yum Brands! Employee Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="38734e9b64ef16f0363955634d312f0e.png" xmlns="">0F1wWzA6Ujk6MRivFHs_DAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

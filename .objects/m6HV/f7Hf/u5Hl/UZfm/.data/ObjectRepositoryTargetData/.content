@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7Wz4D-bx802dQrawGqxtLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="b9ef53c8-4eaa-41a9-b3fc-96742c4543e4" CvElementArea="19, 117, 37, 34" CvType="Icon" DesignTimeRectangle="25, 111, 25, 48" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" Guid="17f5fbf5-cdf6-43ad-974a-3f1b9d7c9062" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAA0CAYAAAB2MDPxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVFhH7dghDgMhEIXh3pqgSEDiMByAS3EGDBYUm5qaeaJpZmDTHfEpXvIbBOE1xli7aVTUf0TnnB/o/E2jojQq6oHR1tqqtYoi0RDCMsaIIlE04naPaCkFDrk452h0J42KOhtNKcFbx4lE0YjbPaLeezjkRKI7aVTU2WjOGd44LtZaGkVDbveIxhjhkBOJ9t7hs5ETie6kUVEa/dmRj47nRL+hUVEHomNdahQoOQiJ1hwAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f82abe074d2661318a9d34e7b4c53330.png" xmlns="">0IVvjX-_taUuDPMmTbOdo-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

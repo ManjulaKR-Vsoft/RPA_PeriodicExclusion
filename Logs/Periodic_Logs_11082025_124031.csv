@@ -1,0 +1,34 @@
+﻿Scenario,Product,Product_Name,ProductID,Entity Found,Submit Status
+Scenario 1,Item,,33261,YES,Success
+Scenario 2,Product,,33261,YES,Success
+Scenario 3,Item,,33261,YES,Success
+Scenario 4,Product,,33261,YES,Success
+Scenario 5,Item,,33243,YES,Success
+Scenario 5,Item,," 33244",YES,Success
+Scenario 5,Item,," 33245",YES,Success
+Scenario 5,Item,," 33246",YES,Success
+Scenario 6,Product,,33243,YES,Success
+Scenario 6,Product,," 33244",YES,Success
+Scenario 6,Product,," 33245",YES,Success
+Scenario 6,Product,," 33246",YES,Success
+Scenario 7,Item,,33249,YES,Success
+Scenario 7,Item,," 33250",YES,Success
+Scenario 7,Item,," 33251",YES,Success
+Scenario 7,Item,," 33252",YES,Success
+Scenario 7,Item,," 33253",YES,Success
+Scenario 7,Item,," 33254",YES,Success
+Scenario 7,Item,," 33258",YES,Success
+Scenario 8,Product,,33249,YES,Success
+Scenario 8,Product,," 33250",YES,Success
+Scenario 8,Product,," 33251",YES,Success
+Scenario 8,Product,," 33252",YES,Success
+Scenario 8,Product,," 33253",YES,Success
+Scenario 8,Product,," 33254",YES,Success
+Scenario 8,Product,," 33258",YES,Success
+Scenario 9,Item,,33255,YES,Success
+Scenario 9,Item,," 33256",YES,Success
+Scenario 9,Item,," 33257",YES,Success
+Scenario 10,Product,,33255,YES,Success
+Scenario 10,Product,," 33256",YES,Success
+Scenario 10,Product,," 33257",YES,Success
+Scenario 11,Category,,20080,YES,Success

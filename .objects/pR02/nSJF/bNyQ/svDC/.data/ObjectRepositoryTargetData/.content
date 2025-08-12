@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LuwADmOREka0dqjuIKR_-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="0a65b8db-0998-479f-b094-07239495321b" CvTextArea="39, 202, 288, 25" CvTextArgument="Product Exclusion Advance" CvType="Text" DesignTimeRectangle="40, 199, 1310, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="c26d6cc6-281a-447e-a06c-fac44aa34a65" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f04bb6320343ec09b45c3ebc2a91414.png" xmlns="">00UToWq_iyUmoOG60x62P_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

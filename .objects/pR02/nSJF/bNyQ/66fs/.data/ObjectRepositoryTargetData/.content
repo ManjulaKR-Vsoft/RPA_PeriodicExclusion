@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bfphbue9W0CcVZO0aQGleg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qafedsso2.yum.com/idp/SSO.saml2" CVScreenId="994fd94e-e600-4431-8ba8-6968b2a3e32f" CvElementArea="751, 400, 328, 48" CvTextArea="879, 413, 69, 24" CvTextArgument="Sign in" CvType="Button" DesignTimeRectangle="754, 402, 322, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl id='submit' tag='BUTTON' /&gt;" Guid="00b887ce-275b-481f-b55a-f3af2bc1a2fa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yum Brands! Employee Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="953631143f0611523d393ace57f3eac2.png" xmlns="">0j5ElhdofAECvxocEskPpcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

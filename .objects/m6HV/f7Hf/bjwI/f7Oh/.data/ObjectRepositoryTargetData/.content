@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SOaLGd00C06bZNlbU2UvXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="9514948c-d1fd-4766-8c3d-928c17fb6fdc" CvElementArea="385, 450, 287, 35" CvType="InputBox" DesignTimeRectangle="391, 451, 255, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Category*' isleaf='1' tag='BUTTON' /&gt;" Guid="0811966f-80a5-44b8-8c27-fc449aa528a0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9514948c-d1fd-4766-8c3d-928c17fb6fdc" CvElementArea="71, 451, 283, 33" CvTextArea="74, 437, 38, 15" CvTextArgument="Entity*" CvType="InputBox" DesignTimeRectangle="54, 429, 317, 78" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div' idx='2' parentid='root' tag='DIV' /&gt;" Guid="2bcd8677-9422-4129-a3a2-20fa6aaaa8d9" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f413a74c75393e4c247bf9ad49970318.png" xmlns="">0x0QBi1bDNUmeJZ08DzlL8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fziBk-xwNU2eu6kdcHrLhw" Reference="mEDzMWy4KESA-HIzYnwmGQ/iLlM_N6quEq2T3dzmr78OQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="5b63416f-502b-4eab-bd61-eb234f86f06c" CvTextArea="27, 409, 131, 18" CvTextArgument="OLO Administration" CvType="Text" DesignTimeRectangle="29, 406, 128, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='OLO Administration' class='link' parentid='accordion' tag='DIV' /&gt;" Guid="77fb1440-9a6a-4a61-a0bb-a7dbfff72065" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c057b69c8023f3dc38053825fa65a39f.png" xmlns="">0FuFyvc-tTUiQD9Kzdp5S5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

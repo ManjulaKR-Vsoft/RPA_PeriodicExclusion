@@ -1,0 +1,14 @@
+﻿{
+  "Name": "End Date & Time",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "tUBnbF5QMEWJI_8UQI9jGg",
+  "Reference": "mEDzMWy4KESA-HIzYnwmGQ/tUBnbF5QMEWJI_8UQI9jGg",
+  "ParentRef": "mEDzMWy4KESA-HIzYnwmGQ/bjwIe8SO2E2QmptjJ3Ipjw",
+  "Created": "2025-07-16T11:14:44.8293616Z",
+  "Updated": "2025-07-16T11:14:44.8293616Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

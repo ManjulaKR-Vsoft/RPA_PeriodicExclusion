@@ -1,0 +1,538 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="OrderServeLogin" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OrderServeLogin_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="OrderServeLogin" sap:VirtualizedContainerService.HintSize="1064,2139" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="OrderServerURL" />
+      <Variable x:TypeArguments="x:String" Name="Username" />
+      <Variable x:TypeArguments="ss:SecureString" Name="Password" />
+      <Variable x:TypeArguments="x:Boolean" Name="LoginSuccessful" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Get Assets" sap:VirtualizedContainerService.HintSize="1064,57" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="OrderservePortalURL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Exclusion" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+        <ui:GetRobotAsset.Value>
+          <OutArgument x:TypeArguments="x:String">[OrderServerURL]</OutArgument>
+        </ui:GetRobotAsset.Value>
+      </ui:GetRobotAsset>
+      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="OrderservePortalCreds" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Exclusion" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
+    </Sequence>
+    <Sequence DisplayName="OrderServer Login" sap:VirtualizedContainerService.HintSize="1064,2059" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Boolean" Name="NavSuccess" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1030,1499" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:30">
+        <ui:RetryScope.ActivityBody>
+          <ActivityAction>
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="988,1178" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="954,165" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
+              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Yum Brands! Employee Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="954,483" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0cd8cbbb-08f9-404e-a40e-25faa17700db" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NCheckState DisplayName="Check App State 'Sign in'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="0cd8cbbb-08f9-404e-a40e-25faa17700db" Timeout="10" Version="V5">
+                        <uix:NCheckState.IfExists>
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,888" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT userId'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="0cd8cbbb-08f9-404e-a40e-25faa17700db" Text="[Username.Trim]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="qafedsso2.yum.com/idp/SSO.saml2" CVScreenId="2a214d9c-80d2-4c4f-86cb-2ab0e55be7e5" ContentHash="CN37_GSSCUqcH-r5J2bSYA" CvElementArea="754, 232, 324, 37" CvType="InputBox" DesignTimeRectangle="754, 236, 322, 33" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='userId' tag='INPUT' /&gt;" Guid="73b69c2a-5981-4bcf-b2f1-25a1e6557635" InformativeScreenshot="0f53712e9692f4a31a030ef85cf5cafe.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/HTQezfMh2EaGGDQfLDd4Ew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yum Brands! Employee Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.VerifyOptions>
+                                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                </uix:VerifyExecutionTypeIntoOptions>
+                              </uix:NTypeInto.VerifyOptions>
+                            </uix:NTypeInto>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="0cd8cbbb-08f9-404e-a40e-25faa17700db" SecureText="[Password]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="qafedsso2.yum.com/idp/SSO.saml2" CVScreenId="05f46867-6b6c-4e5e-9ab2-ebac2f0bf46f" ContentHash="z1Zep0ri9Eurr87ezXzsEw" CvElementArea="752, 314, 325, 37" CvType="InputBox" DesignTimeRectangle="754, 319, 322, 33" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="9232d48e-912c-4a2c-a6d2-7b866024a1e6" InformativeScreenshot="38734e9b64ef16f0363955634d312f0e.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/PWk9pTy81k2zGYMEhGQAGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yum Brands! Employee Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.VerifyOptions>
+                                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                </uix:VerifyExecutionTypeIntoOptions>
+                              </uix:NTypeInto.VerifyOptions>
+                            </uix:NTypeInto>
+                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  submit'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                              <ui:Click.CursorPosition>
+                                <ui:CursorPosition Position="Center">
+                                  <ui:CursorPosition.OffsetX>
+                                    <InArgument x:TypeArguments="x:Int32" />
+                                  </ui:CursorPosition.OffsetX>
+                                  <ui:CursorPosition.OffsetY>
+                                    <InArgument x:TypeArguments="x:Int32" />
+                                  </ui:CursorPosition.OffsetY>
+                                </ui:CursorPosition>
+                              </ui:Click.CursorPosition>
+                              <ui:Click.Target>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cc931384-7c21-4ef0-ab1c-3e8f8c211085" InformativeScreenshot="c5d16d4cd39be87a4566f1e8b93e2bb6" Selector="&lt;webctrl id='submit' tag='BUTTON' /&gt;">
+                                  <ui:Target.TimeoutMS>
+                                    <InArgument x:TypeArguments="x:Int32" />
+                                  </ui:Target.TimeoutMS>
+                                  <ui:Target.WaitForReady>
+                                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                                  </ui:Target.WaitForReady>
+                                </ui:Target>
+                              </ui:Click.Target>
+                            </ui:Click>
+                            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                          </Sequence>
+                        </uix:NCheckState.IfExists>
+                        <uix:NCheckState.IfNotExists>
+                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Login page not found.&quot;]" />
+                          </Sequence>
+                        </uix:NCheckState.IfNotExists>
+                        <uix:NCheckState.Target>
+                          <uix:TargetAnchorable BrowserURL="qafedsso2.yum.com/idp/SSO.saml2" CVScreenId="2a05ab65-1e64-43d1-88c5-9d210626f723" ContentHash="5Ya7dAWo5EW2ymsEgGoWDg" CvElementArea="751, 400, 328, 48" CvTextArea="879, 413, 69, 24" CvTextArgument="Sign in" CvType="Button" DesignTimeRectangle="754, 402, 322, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl id='submit' tag='BUTTON' /&gt;" Guid="ac1c2d69-23ff-4ae8-ad53-a668200b3019" InformativeScreenshot="953631143f0611523d393ace57f3eac2.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/pmPYaYjRwUyYbKAvCYxAdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yum Brands! Employee Login' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                        </uix:NCheckState.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NCheckState>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="6D5Pu4fgWkaasmOGDbP6yg" IconBase64="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" InformativeScreenshot="6c372d638da489a609cc4aad7c12e657.jpg" Reference="mEDzMWy4KESA-HIzYnwmGQ/P4ioGw5ivEam2icM9vvrlA" Selector="&lt;html app='chrome.exe' title='Yum Brands! Employee Login' /&gt;" Url="[OrderServerURL]" Version="V2" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uix:NCheckState DisplayName="Check App State 'Englishkct6624(1)'" Exists="[LoginSuccessful]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,470" sap2010:WorkflowViewState.IdRef="NCheckState_2" Timeout="30" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;After login Navigation page not found!&quot;]" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="16c7fc30-196a-4b79-a06f-d2a1b98b19e4" ContentHash="rYwB178jL0W35mKkcv-7ww" DesignTimeRectangle="1066, 116, 98, 38" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='GlobalLanguage' tag='SELECT' /&gt;" Guid="31c40371-77ad-44c9-b334-29bb0c83260b" InformativeScreenshot="9f35b1d51dc3fd798412a21ee9e5c503.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/mdO8ujlioUuK7VwArIfqzg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </ui:RetryScope.ActivityBody>
+        <ui:RetryScope.Condition>
+          <ActivityFunc x:TypeArguments="x:Boolean">
+            <ui:CheckTrue DisplayName="Check True" ErrorMessage="Orderserve Portal Login failed. Retried 3 times!" Expression="[LoginSuccessful]" sap:VirtualizedContainerService.HintSize="988,129" sap2010:WorkflowViewState.IdRef="CheckTrue_1" />
+          </ActivityFunc>
+        </ui:RetryScope.Condition>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:RetryScope>
+      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1030,477" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="00:00:40">
+        <ui:RetryScope.ActivityBody>
+          <ActivityAction>
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_30">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NCheckState DisplayName="Check App State 'Englishkct6624(1)'" Exists="[LoginSuccessful]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NCheckState_5" Timeout="30" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484,191" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Navigate to Exclusion" sap:VirtualizedContainerService.HintSize="450,131" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Executive Summary-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022,1287" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Sequence DisplayName="Navigate to Product Exclusion" sap:VirtualizedContainerService.HintSize="988,1227" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NCheckState DisplayName="Check App State 'Englishkct6624'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,1144" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Timeout="30" Version="V5">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,904" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NHighlight Color="Red" DisplayName="Highlight 'svg'" HealingAgentBehavior="SameAsCard" HighlightTime="1" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NHighlight_2" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V5">
+                                        <uix:NHighlight.Target>
+                                          <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="0cf3e1b7-ffbe-4381-b777-42c78e517083" ContentHash="_UKqafhtlE646Efq0drc1Q" CvElementArea="19, 117, 37, 35" CvType="Icon" DesignTimeRectangle="25, 111, 25, 48" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" Guid="a270f60e-1602-43eb-a160-2f08be4ba9b3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAA0CAYAAAB2MDPxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVFhH7dghDgMhEIXh3pqgSEDiMByAS3EGDBYUm5qaeaJpZmDTHfEpXvIbBOE1xli7aVTUf0TnnB/o/E2jojQq6oHR1tqqtYoi0RDCMsaIIlE04naPaCkFDrk452h0J42KOhtNKcFbx4lE0YjbPaLeezjkRKI7aVTU2WjOGd44LtZaGkVDbveIxhjhkBOJ9t7hs5ETie6kUVEa/dmRj47nRL+hUVEHomNdahQoOQiJ1hwAAAAASUVORK5CYII=" InformativeScreenshot="74c03b6521b7dc23b3ba826cf4c6223b.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/2hQRg1inJkC8eelSgfebYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="0cf3e1b7-ffbe-4381-b777-42c78e517083" CvElementArea="664, 106, 54, 57" CvType="Icon" DesignTimeRectangle="666, 110, 50, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="b9349ce6-26c1-4d14-801f-4405b40de2b3" ImageBase64="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" SearchSteps="Selector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NHighlight.Target>
+                                      </uix:NHighlight>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'path'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="21402db4-acb8-4d32-aa5b-6df4f38ac9a3" ContentHash="0Lx9tz3dcE-47MetOJlO7A" CvElementArea="19, 117, 37, 34" CvType="Icon" DesignTimeRectangle="25, 124, 25, 22" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='path' /&gt;" Guid="f70bd7e7-4423-4d16-8917-f1a6e267ccc7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAaCAYAAABLlle3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACFSURBVEhL7dYrDgAhDIThvTVBkYDEYTgAl+IMGGxd163pyOEhVnxukt9U9BER3e2LjjG0976UiaaU1Dm3lImiEdsd0dYaHLKEEGx0pz+61NloKQVeHZOJohHbHdEYIxwymehOf3Sps9FaK7w4Fu+9jaIh2x3RnDMcMpnonBO+jUwmuo/oC3I+qPFMOw9IAAAAAElFTkSuQmCC" InformativeScreenshot="50fd6d6235c4577e4a85e96e6a166eed.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/x0knNb5EXkmp3jLU-65lEw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="d9f87c62-13dc-470c-b3d5-a4ff3e08bb6c" CvElementArea="664, 106, 54, 57" CvType="Icon" DesignTimeRectangle="666, 110, 50, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="7299f313-5686-46f4-b2ef-d2d65e207e6e" ImageBase64="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" SearchSteps="Selector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                        <uix:NClick.VerifyOptions>
+                                          <uix:VerifyExecutionOptions DisplayName="Icon 'Icon 'svg''" IsLoose="True" Mode="Appears">
+                                            <uix:VerifyExecutionOptions.Retry>
+                                              <InArgument x:TypeArguments="x:Boolean" />
+                                            </uix:VerifyExecutionOptions.Retry>
+                                            <uix:VerifyExecutionOptions.Target>
+                                              <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="4d9c83ea-1c97-45fd-88bb-dc2a6bcc83c2" ContentHash="IH4vL8PKLU2Y8lRIjhwjZA" CvElementArea="19, 117, 37, 35" CvType="Icon" DesignTimeRectangle="25, 111, 25, 48" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" Guid="9c76e5df-726e-4f01-ae9c-5be6b5d68479" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAA0CAYAAAB2MDPxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVFhH7dghDgMhEIXh3pqgSEDiMByAS3EGDBYUm5qaeaJpZmDTHfEpXvIbBOE1xli7aVTUf0TnnB/o/E2jojQq6oHR1tqqtYoi0RDCMsaIIlE04naPaCkFDrk452h0J42KOhtNKcFbx4lE0YjbPaLeezjkRKI7aVTU2WjOGd44LtZaGkVDbveIxhjhkBOJ9t7hs5ETie6kUVEa/dmRj47nRL+hUVEHomNdahQoOQiJ1hwAAAAASUVORK5CYII=" InformativeScreenshot="d8364ebc327fbe9776f757ec821efc25.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/6CHJZgXDPEeHrDQJJP2qdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="4d9c83ea-1c97-45fd-88bb-dc2a6bcc83c2" CvElementArea="664, 106, 54, 57" CvType="Icon" DesignTimeRectangle="666, 110, 50, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="46d5fea5-1f08-492e-b05d-4521d70e0aef" ImageBase64="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" SearchSteps="Selector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:VerifyExecutionOptions.Target>
+                                            <uix:VerifyExecutionOptions.Timeout>
+                                              <InArgument x:TypeArguments="x:Double" />
+                                            </uix:VerifyExecutionOptions.Timeout>
+                                          </uix:VerifyExecutionOptions>
+                                        </uix:NClick.VerifyOptions>
+                                      </uix:NClick>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OLO Administration'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="5b63416f-502b-4eab-bd61-eb234f86f06c" ContentHash="fziBk-xwNU2eu6kdcHrLhw" CvTextArea="27, 409, 131, 18" CvTextArgument="OLO Administration" CvType="Text" DesignTimeRectangle="29, 406, 128, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='OLO Administration' class='link' parentid='accordion' tag='DIV' /&gt;" Guid="77fb1440-9a6a-4a61-a0bb-a7dbfff72065" InformativeScreenshot="c057b69c8023f3dc38053825fa65a39f.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/iLlM_N6quEq2T3dzmr78OQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Product Exclusion Advan…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="62c455e0-0d1e-43b8-9952-74fde14bc619" ContentHash="ASY190AkvkGAfdXYrIRIdQ" CvTextArea="42, 495, 184, 14" CvTextArgument="Product Exclusion Advanced" CvType="Text" DesignTimeRectangle="43, 494, 183, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Product Exclusion Advanced' tag='A' /&gt;" Guid="bd56f735-1fee-47fd-b41f-46d3c6e770f6" InformativeScreenshot="1a5c791be2d96ac7f0ac30d6c39eb294.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/u9zTKLdXyEOvqtHOSaHv_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                      <uix:NCheckState DisplayName="Check App State 'Product Exclusion Advan…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Timeout="10" Version="V5">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="d0ea089b-f50c-4d3d-8a48-80bb1b3b7e9c" ContentHash="EcCNVfCaBkWaNEAidoNfyQ" CvTextArea="39, 202, 288, 25" CvTextArgument="Product Exclusion Advance" CvType="Text" DesignTimeRectangle="40, 199, 1310, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="880b63b2-ab3b-4393-9602-976ae1b93974" InformativeScreenshot="f9cb6f3ea47fd65b3ab03bf1d74e1804.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/mHnpXXWUJEGycZVWDJwzEg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="d0ea089b-f50c-4d3d-8a48-80bb1b3b7e9c" CvElementArea="51, 272, 18, 18" CvTextArea="74, 274, 140, 15" CvTextArgument="Select By Franchise" CvType="RadioButton" DesignTimeRectangle="54, 271, 160, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='mr-5' aaname='Select By Franchise' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select By Franchise' /&gt;" Guid="c3e9e86f-425d-46da-a7bd-24cfe827ae57" SearchSteps="Selector, FuzzySelector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NCheckState.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NCheckState>
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" ContentHash="J7zR0df2a0KuBWY_qMtqbQ" DesignTimeRectangle="8, 95, 1366, 80" ElementType="Container" FullSelectorArgument="&lt;webctrl tag='NAV' /&gt;" Guid="28efa0b3-cf0a-4e25-b2d4-a384375d3a18" InformativeScreenshot="55ba245cdd683f990f89f96d644b01ff.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/xw5MBDF6xkOHZm8ZStGDHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                  </uix:NCheckState.Target>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </uix:NCheckState>
+                              </Sequence>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="gnFm75lb_UCTopIZzcj43g" IconBase64="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" InformativeScreenshot="0253b71a4abd901cad693475a483b5cd.jpg" Reference="mEDzMWy4KESA-HIzYnwmGQ/MFX8wFhe20-07a7QuzYdLg" Selector="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" Url="[OrderServerURL]" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;After login Navigation page not found!&quot;]" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="16c7fc30-196a-4b79-a06f-d2a1b98b19e4" ContentHash="rYwB178jL0W35mKkcv-7ww" DesignTimeRectangle="1066, 116, 98, 38" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='GlobalLanguage' tag='SELECT' /&gt;" Guid="31c40371-77ad-44c9-b334-29bb0c83260b" InformativeScreenshot="9f35b1d51dc3fd798412a21ee9e5c503.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/mdO8ujlioUuK7VwArIfqzg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NCheckState>
+              <uix:NCheckState DisplayName="Check App State 'Product Exclusion Advan…'" Exists="[NavSuccess]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NCheckState_8" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="79b04146-4e75-46ef-8824-bb689cfa1194" ContentHash="XgI0t3ZGz0W-DDpfCF5CeQ" CvTextArea="39, 202, 288, 25" CvTextArgument="Product Exclusion Advance" CvType="Text" DesignTimeRectangle="40, 199, 1310, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="73c1ee12-0631-43de-9a8f-0192eb677490" InformativeScreenshot="4b73086c2cba3133da35b746852c722b.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/p4eZF-qRdUOTdUoIR4e4ow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </ui:RetryScope.ActivityBody>
+        <ui:RetryScope.Condition>
+          <ActivityFunc x:TypeArguments="x:Boolean">
+            <ui:CheckTrue DisplayName="Check True" ErrorMessage="Navigation failed to Product Exclusion page" Expression="[NavSuccess]" sap:VirtualizedContainerService.HintSize="450,129" sap2010:WorkflowViewState.IdRef="CheckTrue_2" />
+          </ActivityFunc>
+        </ui:RetryScope.Condition>
+      </ui:RetryScope>
+    </Sequence>
+  </Sequence>
+</Activity>

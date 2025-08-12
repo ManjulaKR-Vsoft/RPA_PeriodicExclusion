@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vrfuoYCo2EqYhpLWmR8u6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="1fb1ffd8-dc01-4c78-897e-3a127786a036" CvElementArea="260, 272, 18, 18" CvType="RadioButton" DesignTimeRectangle="262, 275, 13, 13" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='field-group' tag='INPUT' type='radio' class='mr-2' aaname='Select By Group' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b8095d8b-4f09-42e0-bc25-2cf8a423dd9e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1fb1ffd8-dc01-4c78-897e-3a127786a036" CvElementArea="260, 272, 18, 18" CvTextArea="282, 274, 114, 18" CvTextArgument="Select By Group" CvType="RadioButton" DesignTimeRectangle="262, 271, 134, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Select By Group' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select By Group' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select By Group' /&gt;" Guid="51db1ea9-db8c-47ea-996e-dcb7f5d814c6" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ea024a9335222e2fd3316a90b10f4adb.png" xmlns="">0BkloWnggjEu0jM-TtINUgw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

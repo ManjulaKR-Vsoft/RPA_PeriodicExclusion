@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rYwB178jL0W35mKkcv-7ww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="16c7fc30-196a-4b79-a06f-d2a1b98b19e4" DesignTimeRectangle="1066, 116, 98, 38" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='GlobalLanguage' tag='SELECT' /&gt;" Guid="31c40371-77ad-44c9-b334-29bb0c83260b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f35b1d51dc3fd798412a21ee9e5c503.png" xmlns="">0kyP6apT5T0KPU0r4jebEAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

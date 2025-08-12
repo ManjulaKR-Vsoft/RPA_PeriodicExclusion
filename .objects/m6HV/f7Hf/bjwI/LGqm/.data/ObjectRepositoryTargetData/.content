@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ugvkve6Xfkifj_tWXWUv8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" DesignTimeRectangle="441, 251, 500, 139" FullSelectorArgument="&lt;webctrl class='modal-body' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='modal-body' tag='DIV' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Success&amp;#xA;&amp;#xA;Bulk mapping has processed. Please check the detail status.' /&gt;" Guid="bd4d2a49-f5f2-42c4-aae2-fb6d15063f85" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="acbfbd97daf119e6bc0efc52f2f8ee84.png" xmlns="">0NGUsP5gob0SPwhsPerREEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
