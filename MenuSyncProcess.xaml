@@ -181,7 +181,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="MenuSyncProcess" sap:VirtualizedContainerService.HintSize="1630,5865" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="MenuSyncProcess" sap:VirtualizedContainerService.HintSize="1630,6412" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="SharePointURL" />
       <Variable x:TypeArguments="umfm:O365DriveRemoteItem[]" Name="ExclusionList" />
@@ -225,6 +225,7 @@
       <Variable x:TypeArguments="sd:DataTable" Name="dt1" />
       <Variable x:TypeArguments="x:String" Name="mailBody" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtInput" />
+      <Variable x:TypeArguments="x:String" Name="strDate" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -249,11 +250,11 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <Sequence DisplayName="Get Assets" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="Sequence_485">
+    <Sequence DisplayName="Get Assets" sap:VirtualizedContainerService.HintSize="1630,490" sap2010:WorkflowViewState.IdRef="Sequence_485">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_101">
@@ -931,20 +932,20 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="CommentOut_104">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="CommentOut_105">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_702">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_703">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_186">
+          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_188">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[Restaurant]</OutArgument>
             </Assign.To>
             <Assign.Value>
-              <InArgument x:TypeArguments="x:String">Northgate, Plumpton, Modbury, St Clair</InArgument>
+              <InArgument x:TypeArguments="x:String">Plumpton</InArgument>
             </Assign.Value>
           </Assign>
         </Sequence>
@@ -998,13 +999,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Product Exclusion-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1630,4178" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Product Exclusion-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1630,4292" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1596,3938" sap2010:WorkflowViewState.IdRef="Sequence_631">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1596,4052" sap2010:WorkflowViewState.IdRef="Sequence_631">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1027,9 +1028,9 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Delay>
-            <uix:NCheckState DisplayName="Check App State 'Menu Pull Scheduler'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1562,3461" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Menu Pull Scheduler'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1562,3575" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="60" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1058,3219" sap2010:WorkflowViewState.IdRef="Sequence_700">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1058,3333" sap2010:WorkflowViewState.IdRef="Sequence_700">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1478,6 +1479,14 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
+                  <Assign sap:VirtualizedContainerService.HintSize="1024,114" sap2010:WorkflowViewState.IdRef="Assign_187">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[strDate]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("AUS Eastern Standard Time")).ToString("dd-MM-yyyy hh:mm tt")]</InArgument>
+                    </Assign.Value>
+                  </Assign>
                   <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="1024,122" sap2010:WorkflowViewState.IdRef="Delay_80" />
                   <uix:NCheckState DisplayName="Check App State 'SuccessTask scheduled s…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1024,1063" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="10" Version="V5">
                     <uix:NCheckState.IfExists>
@@ -1511,14 +1520,14 @@
 	&lt;p&gt;&lt;b&gt;Restaurant:&lt;/b&gt; {Restaurant}&lt;/p&gt;
 	&lt;p&gt;&lt;b&gt;Channel Type:&lt;/b&gt; {ChannelType}&lt;/p&gt;
 	&lt;p&gt;&lt;b&gt;Service Type:&lt;/b&gt; {ServiceType}&lt;/p&gt;
-    &lt;p&gt;&lt;b&gt;Date:&lt;/b&gt; {DateTime.Now}&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Date:&lt;/b&gt; {strDate}&lt;/p&gt;
     &lt;hr&gt;
     &lt;p&gt;RPA Team&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;"]</InArgument>
                             </Assign.Value>
                           </Assign>
-                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="True" Name="RPA MenuSync Automation" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="MenuSync Success" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
+                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="True" Name="RPA MenuSync Automation" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic - MenuSync Success" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
                             <ui:SendMail.AttachmentsBackup>
                               <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
                                 <usau1:BackupSlot.BackupValues>
@@ -1561,14 +1570,14 @@
 	&lt;p&gt;&lt;b&gt;Restaurant:&lt;/b&gt; {Restaurant}&lt;/p&gt;
 	&lt;p&gt;&lt;b&gt;Channel Type:&lt;/b&gt; {ChannelType}&lt;/p&gt;
 	&lt;p&gt;&lt;b&gt;Service Type:&lt;/b&gt; {ServiceType}&lt;/p&gt;
-    &lt;p&gt;&lt;b&gt;Date:&lt;/b&gt; {DateTime.Now}&lt;/p&gt;
+    &lt;p&gt;&lt;b&gt;Date:&lt;/b&gt; {strDate}&lt;/p&gt;
     &lt;hr&gt;
     &lt;p&gt;RPA Team&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;"]</InArgument>
                           </Assign.Value>
                         </Assign>
-                        <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="True" Name="RPA MenuSync Automation" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="MenuSync Failed" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
+                        <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="True" Name="RPA MenuSync Automation" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic - MenuSync Failed" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
                           <ui:SendMail.AttachmentsBackup>
                             <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
                               <usau1:BackupSlot.BackupValues>

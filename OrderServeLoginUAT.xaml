@@ -100,7 +100,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OrderServeLogin" sap:VirtualizedContainerService.HintSize="1738,4957" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OrderServeLogin" sap:VirtualizedContainerService.HintSize="1738,4837" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="OrderServerURL" />
       <Variable x:TypeArguments="x:String" Name="Username" />
@@ -126,7 +126,7 @@
       </ui:GetRobotAsset>
       <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="OrderservePortalCreds" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Exclusion" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
     </Sequence>
-    <Sequence DisplayName="OrderServer Login" sap:VirtualizedContainerService.HintSize="1738,4877" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="OrderServer Login" sap:VirtualizedContainerService.HintSize="1738,4757" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="NavSuccess" />
       </Sequence.Variables>
@@ -135,17 +135,17 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1704,2237" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:30">
+      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1704,2197" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:30">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
-            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1056,1916" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1056,1876" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1022,165" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
-              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Yum Brands! Employee Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,1643" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0cd8cbbb-08f9-404e-a40e-25faa17700db" Version="V2" WindowResize="Maximize">
+              <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Yum Brands! Employee Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,1603" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0cd8cbbb-08f9-404e-a40e-25faa17700db" Version="V2" WindowResize="Maximize">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
@@ -299,30 +299,30 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:RetryScope>
-      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1704,2557" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="00:00:40">
+      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1704,2477" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="3" RetryInterval="00:00:40">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
-            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1662,2245" sap2010:WorkflowViewState.IdRef="Sequence_30">
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1662,2165" sap2010:WorkflowViewState.IdRef="Sequence_30">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'Englishkct6624(1)'" Exists="[LoginSuccessful]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1628,2137" sap2010:WorkflowViewState.IdRef="NCheckState_5" Timeout="30" Version="V5">
+              <uix:NCheckState DisplayName="Check App State 'Englishkct6624(1)'" Exists="[LoginSuccessful]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1628,2057" sap2010:WorkflowViewState.IdRef="NCheckState_5" Timeout="30" Version="V5">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1124,1848" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1124,1808" sap2010:WorkflowViewState.IdRef="Sequence_26">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Navigate to Exclusion" sap:VirtualizedContainerService.HintSize="1090,1786" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                    <Sequence DisplayName="Navigate to Exclusion" sap:VirtualizedContainerService.HintSize="1090,1746" sap2010:WorkflowViewState.IdRef="Sequence_25">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Executive Summary-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1056,1699" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V2">
+                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Executive Summary-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1056,1659" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V2">
                         <uix:NApplicationCard.Body>
                           <ActivityAction x:TypeArguments="x:Object">
                             <ActivityAction.Argument>
@@ -351,7 +351,7 @@
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                                      <Delay Duration="00:00:08" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_5" />
                                       <uix:NHighlight Color="Red" DisplayName="Highlight 'svg'" HealingAgentBehavior="SameAsCard" HighlightTime="1" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NHighlight_2" ScopeIdentifier="8e5034d0-d825-46ac-b9af-01765a5cc34d" Version="V5">
                                         <uix:NHighlight.Target>
                                           <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com" CVScreenId="0cf3e1b7-ffbe-4381-b777-42c78e517083" ContentHash="_UKqafhtlE646Efq0drc1Q" CvElementArea="19, 117, 37, 35" CvType="Icon" DesignTimeRectangle="25, 111, 25, 48" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" Guid="a270f60e-1602-43eb-a160-2f08be4ba9b3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAA0CAYAAAB2MDPxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVFhH7dghDgMhEIXh3pqgSEDiMByAS3EGDBYUm5qaeaJpZmDTHfEpXvIbBOE1xli7aVTUf0TnnB/o/E2jojQq6oHR1tqqtYoi0RDCMsaIIlE04naPaCkFDrk452h0J42KOhtNKcFbx4lE0YjbPaLeezjkRKI7aVTU2WjOGd44LtZaGkVDbveIxhjhkBOJ9t7hs5ETie6kUVEa/dmRj47nRL+hUVEHomNdahQoOQiJ1hwAAAAASUVORK5CYII=" InformativeScreenshot="74c03b6521b7dc23b3ba826cf4c6223b.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/2hQRg1inJkC8eelSgfebYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Executive Summary-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
