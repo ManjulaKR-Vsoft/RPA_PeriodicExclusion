@@ -1,0 +1,20 @@
+﻿Scenarios,Select Restaurant,Select Channel Type,Select Service Type,Entity,Sub-Entity ID,Reason For Exclusion,End Date
+Periodic 01,All,Ubereats,Delivery,Product,"33489, 33491, 33498, 33499, 33500, 33501, 33503, 33505, 33495, 33496, 33502, 33504, 33493, 33494, 33497, 33487, 33488",P - 2026 P4 NEWS Liquid Gold not available on UE,04/14/2026 00:00
+Periodic 02,All,Ubereats,Delivery,Item,"33489, 33491, 33498, 33499, 33500, 33501, 33503, 33505, 33495, 33496, 33502, 33504, 33493, 33494, 33497, 33487, 33488",I - 2026 P4 NEWS Liquid Gold not available on UE,04/14/2026 00:00
+Periodic 03,All,"Web, App, Ubereats, Doordash",Delivery,Product,"33151, 33162",P - 2026 P4 VALUE Giant Snack Pack not available on DELIVERY,04/14/2026 00:00
+Periodic 04,All,"Web, App, Ubereats, Doordash",Delivery,Item,"33151, 33162",I - 2026 P4 VALUE Giant Snack Pack not available on DELIVERY,04/14/2026 00:00
+Periodic 05,All,"Web, App",Pickup,Product,33162,P - 2026 P4 VALUE Giant Snack Pack only available on KIOSK,04/14/2026 00:00
+Periodic 06,All,"Web, App",Pickup,Item,33162,I - 2026 P4 VALUE Giant Snack Pack only available on KIOSK,04/14/2026 00:00
+Periodic 07,All,Kiosk,Pickup,Product,33151,P - 2026 P4 VALUE Giant Snack Pack not available on KIOSK,04/14/2026 00:00
+Periodic 08,All,Kiosk,Pickup,Item,33151,I - 2026 P4 VALUE Giant Snack Pack not available on KIOSK,04/14/2026 00:00
+Periodic 09,All,"Web, App, Kiosk",Pickup,Product,33381,P - 2026 P4 Footy Feast available on DELIVERY,04/14/2026 00:00
+Periodic 10,All,"Web, App, Kiosk",Pickup,Item,33381,I - 2026 P4 Footy Feast available on DELIVERY,04/14/2026 00:00
+Periodic 11,All,"Web, App, Ubereats, Doordash",Delivery,Category,20056,C - 2026 SNACK HACKS available on PICKUP only,04/14/2026 00:00
+Periodic 12,All,"Web, App, Ubereats, Doordash",Delivery,Product,"33454, 33455, 33456, 33457",P - 2026 P4 VALUE Tests Lunchboxes not available on DELIVERY,04/14/2026 00:00
+Periodic 13,All,"Web, App, Ubereats, Doordash",Delivery,Item,"33454, 33455, 33456, 33457",I - 2026 P4 VALUE Tests Lunchboxes not available on DELIVERY,04/14/2026 00:00
+Periodic 14,All,"Web, App, Ubereats, Doordash",Delivery,Product,"33510, 33509",P - 2026 P4 CAIRNS Tests not available on DELIVERY,04/14/2026 00:00
+Periodic 15,All,"Web, App, Ubereats, Doordash",Delivery,Item,"33510, 33509",I - 2026 P4 CAIRNS Tests not available on DELIVERY,04/14/2026 00:00
+Periodic 16,All,"Web, App",Pickup,Product,33510,P - 2026 P4 CAIRNS Tests only available on KIOSK,04/14/2026 00:00
+Periodic 17,All,"Web, App",Pickup,Item,33510,I - 2026 P4 CAIRNS Tests only available on KIOSK,04/14/2026 00:00
+Periodic 18,All,Kiosk,Pickup,Product,33509,P - 2026 P4 CAIRNS Tests not available on KIOSK,04/14/2026 00:00
+Periodic 19,All,Kiosk,Pickup,Item,33509,I - 2026 P4 CAIRNS Tests not available on KIOSK,04/14/2026 00:00

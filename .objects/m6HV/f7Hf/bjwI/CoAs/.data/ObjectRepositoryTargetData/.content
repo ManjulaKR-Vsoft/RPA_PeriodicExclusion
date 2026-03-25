@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NBYKjYzvkEaQTqO58yfF3A" Reference="mEDzMWy4KESA-HIzYnwmGQ/CoAs8Ubab0ebysiwa8EPbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="ba2775cd-cfda-4377-8b9a-fc9362fa55d3" CvElementArea="44, 396, 13, 13" CvTextArea="59, 397, 37, 10" CvTextArgument="[currentText]" CvType="CheckBox" DesignTimeRectangle="39, 395, 311, 20" ElementType="ListItem" FullSelectorArgument="&lt;webctrl tag='LI' /&gt;" Guid="79291b0a-1280-437e-b975-326b56adc761" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc9792c7d6f72635b8a82bd78b3d36b3.png" xmlns="">0IegtwD5lPkmURU7sBMfnSQ</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="currentText" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

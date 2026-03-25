@@ -1,0 +1,20 @@
+﻿Select Restaurant,Select Channel Type,Select Service Type
+All,Ubereats,Delivery
+All,Ubereats,Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App",Pickup
+All,"Web, App",Pickup
+All,Kiosk,Pickup
+All,Kiosk,Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Kiosk",Pickup
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App, Ubereats, Doordash",Delivery
+All,"Web, App",Pickup
+All,"Web, App",Pickup
+All,Kiosk,Pickup
+All,Kiosk,Pickup

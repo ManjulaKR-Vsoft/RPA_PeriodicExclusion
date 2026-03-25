@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3FiFGrKJ8kWHq3mNNjgF1Q" Reference="mEDzMWy4KESA-HIzYnwmGQ/_z8QYUnWZk-rghVRKj1hhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="settings/clearBrowserData" CVScreenId="5e79fc89-71fe-4f33-b6b4-b12c1f7f4216" CvElementArea="829, 599, 104, 39" CvTextArea="846, 611, 70, 13" CvTextArgument="Delete data" CvType="Button" DesignTimeRectangle="831, 600, 100, 36" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete data' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete data' /&gt;" Guid="99e8473c-4147-45c8-ac35-f1d6bc3bef49" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Settings - Privacy and security - Google Chrome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="5e79fc89-71fe-4f33-b6b4-b12c1f7f4216" CvElementArea="829, 599, 104, 39" CvTextArea="846, 611, 70, 13" CvTextArgument="Delete data" CvType="Button" DesignTimeRectangle="847, 609, 68, 17" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Settings - Privacy and security' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete data' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete data' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete data' /&gt;" Guid="fb18b368-b8a7-4bce-9631-c4edec2dd786" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f4081ab85d0ab3115dc28ec2a7d52243.png" xmlns="">f4081ab85d0ab3115dc28ec2a7d52243.png</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

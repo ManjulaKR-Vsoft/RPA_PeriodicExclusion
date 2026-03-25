@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Delete from this device",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Wu1Qew4K1k2LUkl6wjfd9A",
+  "Reference": "mEDzMWy4KESA-HIzYnwmGQ/Wu1Qew4K1k2LUkl6wjfd9A",
+  "ParentRef": "mEDzMWy4KESA-HIzYnwmGQ/-GRIXKdxkEihidCNfrh07Q",
+  "Created": "2025-12-17T02:39:50.5473301Z",
+  "Updated": "2025-12-17T02:39:50.5473301Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
