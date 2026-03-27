@@ -182,7 +182,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="MenuSyncProcess" sap:VirtualizedContainerService.HintSize="1630,4773" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="MenuSyncProcess" sap:VirtualizedContainerService.HintSize="1282,1442" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="SharePointURL" />
       <Variable x:TypeArguments="umfm:O365DriveRemoteItem[]" Name="ExclusionList" />
@@ -233,7 +233,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="CommentOut_100">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_100">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="Sequence_696">
           <sap:WorkflowViewStateService.ViewState>
@@ -251,7 +251,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <Sequence DisplayName="Get Assets" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="Sequence_485">
+    <Sequence DisplayName="Get Assets" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_485">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -328,7 +328,7 @@
         </ui:GetRobotAsset.Value>
       </ui:GetRobotAsset>
     </Sequence>
-    <Sequence DisplayName="Get Inputs" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="Sequence_645">
+    <Sequence DisplayName="Get Inputs" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_645">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -933,7 +933,7 @@
         </Assign.Value>
       </Assign>
     </Sequence>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="CommentOut_105">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_105">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_703">
           <sap:WorkflowViewStateService.ViewState>
@@ -958,8 +958,8 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1630,173" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Info" Message="[&quot;Restaurant: &quot;+Restaurant+&quot;\n&quot;+&quot;Channel Type: &quot;+ChannelType+&quot;\n&quot;+&quot;Service Type: &quot;+ServiceType]" />
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1630,57" sap2010:WorkflowViewState.IdRef="CommentOut_99">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Info" Message="[&quot;Restaurant: &quot;+Restaurant+&quot;\n&quot;+&quot;Channel Type: &quot;+ChannelType+&quot;\n&quot;+&quot;Service Type: &quot;+ServiceType]" />
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_99">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,393" sap2010:WorkflowViewState.IdRef="Sequence_690">
           <sap:WorkflowViewStateService.ViewState>
@@ -1000,521 +1000,529 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Product Exclusion-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1630,4292" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V2" WindowResize="Maximize">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1596,4052" sap2010:WorkflowViewState.IdRef="Sequence_631">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="1562,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
-            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1562,122" sap2010:WorkflowViewState.IdRef="Delay_59">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </Delay>
-            <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="1562,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[OrderServerURL+&quot;/MenuPull&quot;]" Version="V5" />
-            <Delay Duration="00:00:08" sap:VirtualizedContainerService.HintSize="1562,122" sap2010:WorkflowViewState.IdRef="Delay_82">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </Delay>
-            <uix:NCheckState DisplayName="Check App State 'Menu Pull Scheduler'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1562,3575" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="60" Version="V5">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1058,3333" sap2010:WorkflowViewState.IdRef="Sequence_700">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="450,961" sap2010:WorkflowViewState.IdRef="TryCatch_27">
+      <TryCatch.Try>
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_706">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Chrome Product Exclusion-KFC-Australia-Admin" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1596,4052" sap2010:WorkflowViewState.IdRef="Sequence_631">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Select Restaurant" sap:VirtualizedContainerService.HintSize="1024,1511" sap2010:WorkflowViewState.IdRef="Sequence_499">
+                  <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="1562,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
+                  <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1562,122" sap2010:WorkflowViewState.IdRef="Delay_59">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="454,114" sap2010:WorkflowViewState.IdRef="Assign_122">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="s:String[]">[arrRestaurant]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="s:String[]">[Restaurant.Split(","c)]</InArgument>
-                      </Assign.Value>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </Assign>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0.8" DisplayName="Click 'Select Restaurant '" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="454,189" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="ca625362-eb47-4057-979e-8a49ed56e8e7" ContentHash="c6Zp82c0aki4zzgbIbdrzw" CvElementArea="1038, 323, 297, 36" CvType="InputBox" DesignTimeRectangle="1043, 325, 267, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select Restaurant             *' tag='BUTTON' /&gt;" Guid="7a304d9c-db69-4a5e-bb7b-94a9feca1f80" InformativeScreenshot="1a1da699463b24b2307b6aefe80950ec.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/Acdmmcy1YkCzEcRe6sxROg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NClick>
-                    <If Condition="[arrRestaurant.Count = 1 and arrRestaurant.Last.ToString.Contains(&quot;All&quot;)]" sap:VirtualizedContainerService.HintSize="454,1114" sap2010:WorkflowViewState.IdRef="If_77">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,240" sap2010:WorkflowViewState.IdRef="Sequence_496">
+                  </Delay>
+                  <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="1562,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[OrderServerURL+&quot;/MenuPull&quot;]" Version="V5" />
+                  <Delay Duration="00:00:08" sap:VirtualizedContainerService.HintSize="1562,122" sap2010:WorkflowViewState.IdRef="Delay_82">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Delay>
+                  <uix:NCheckState DisplayName="Check App State 'Menu Pull Scheduler'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1562,3575" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="60" Version="V5">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1058,3333" sap2010:WorkflowViewState.IdRef="Sequence_700">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence DisplayName="Select Restaurant" sap:VirtualizedContainerService.HintSize="1024,1511" sap2010:WorkflowViewState.IdRef="Sequence_499">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select All'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,180" sap2010:WorkflowViewState.IdRef="NClick_46" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                          <Assign sap:VirtualizedContainerService.HintSize="454,114" sap2010:WorkflowViewState.IdRef="Assign_122">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="s:String[]">[arrRestaurant]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="s:String[]">[Restaurant.Split(","c)]</InArgument>
+                            </Assign.Value>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Assign>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0.8" DisplayName="Click 'Select Restaurant '" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="454,189" sap2010:WorkflowViewState.IdRef="NClick_45" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="3a1008aa-2f14-440c-887f-12f98a1c1626" ContentHash="0YG_4u6AoEO4Zqp6RixqoQ" CvElementArea="1231, 375, 81, 34" CvTextArea="1243, 384, 55, 13" CvTextArgument="Select All" CvType="Button" DesignTimeRectangle="1232, 375, 79, 33" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select All' tag='BUTTON' /&gt;" Guid="7086934b-38f2-4c18-a595-7649e52a3cac" InformativeScreenshot="653bd180e5e79ec6c47f59073b55cc30.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/P0v9P60hJkeN9OkmFRclLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                              <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="ca625362-eb47-4057-979e-8a49ed56e8e7" ContentHash="c6Zp82c0aki4zzgbIbdrzw" CvElementArea="1038, 323, 297, 36" CvType="InputBox" DesignTimeRectangle="1043, 325, 267, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select Restaurant             *' tag='BUTTON' /&gt;" Guid="7a304d9c-db69-4a5e-bb7b-94a9feca1f80" InformativeScreenshot="1a1da699463b24b2307b6aefe80950ec.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/Acdmmcy1YkCzEcRe6sxROg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                             </uix:NClick.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
                           </uix:NClick>
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="452,743" sap2010:WorkflowViewState.IdRef="Sequence_498">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="418,683" sap2010:WorkflowViewState.IdRef="ForEach`1_10" Values="[arrRestaurant]">
-                            <ui:ForEach.Body>
-                              <ActivityAction x:TypeArguments="x:String">
-                                <ActivityAction.Argument>
-                                  <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
-                                </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,562" sap2010:WorkflowViewState.IdRef="Sequence_497">
+                          <If Condition="[arrRestaurant.Count = 1 and arrRestaurant.Last.ToString.Contains(&quot;All&quot;)]" sap:VirtualizedContainerService.HintSize="454,1114" sap2010:WorkflowViewState.IdRef="If_77">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,240" sap2010:WorkflowViewState.IdRef="Sequence_496">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select All'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,180" sap2010:WorkflowViewState.IdRef="NClick_46" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="3a1008aa-2f14-440c-887f-12f98a1c1626" ContentHash="0YG_4u6AoEO4Zqp6RixqoQ" CvElementArea="1231, 375, 81, 34" CvTextArea="1243, 384, 55, 13" CvTextArgument="Select All" CvType="Button" DesignTimeRectangle="1232, 375, 79, 33" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select All' tag='BUTTON' /&gt;" Guid="7086934b-38f2-4c18-a595-7649e52a3cac" InformativeScreenshot="653bd180e5e79ec6c47f59073b55cc30.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/P0v9P60hJkeN9OkmFRclLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="452,743" sap2010:WorkflowViewState.IdRef="Sequence_498">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="418,683" sap2010:WorkflowViewState.IdRef="ForEach`1_10" Values="[arrRestaurant]">
+                                  <ui:ForEach.Body>
+                                    <ActivityAction x:TypeArguments="x:String">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,562" sap2010:WorkflowViewState.IdRef="Sequence_497">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_53" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
+                                          <uix:NTypeInto.Target>
+                                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="1dd5a36b-9812-4537-b34b-8bb6f9d88cb2" ContentHash="hVESiY3Bh02iNVDcvxhd5A" CvElementArea="1045, 415, 199, 40" CvType="InputBox" DesignTimeRectangle="1046, 416, 197, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="f53a1621-0eb2-4839-b7f1-fc07aab8e56b" InformativeScreenshot="80723f72c778d2103f012de08a6c879b.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/tLZj144fT0SRX4fGTEBGZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                          </uix:NTypeInto.Target>
+                                          <uix:NTypeInto.VerifyOptions>
+                                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            </uix:VerifyExecutionTypeIntoOptions>
+                                          </uix:NTypeInto.VerifyOptions>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </uix:NTypeInto>
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '4 KFC Frenchs Forest'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="3" Version="V5">
+                                          <uix:NClick.Target>
+                                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="36211a39-4fb3-4355-8e93-b296ee0514f0" ContentHash="rOFlCUvpfkuSeOFjS769qQ" CvTextArea="1068, 476, 124, 12" CvTextArgument="4 KFC Frenchs Forest" CvType="Text" DesignTimeRectangle="1070, 473, 264, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='checkbox-dummy' tag='LABEL' /&gt;" Guid="337475c7-5f01-4be3-93c1-2287d1d3e130" InformativeScreenshot="503b88b19c8ebc57d48076f467ebe6bb.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/KnV6DPc9XkuHdSvnZMsYTQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                          </uix:NClick.Target>
+                                          <uix:NClick.VerifyOptions>
+                                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionOptions.Retry>
+                                              <uix:VerifyExecutionOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionOptions.Timeout>
+                                            </uix:VerifyExecutionOptions>
+                                          </uix:NClick.VerifyOptions>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </uix:NClick>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:ForEach.Body>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_53" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
-                                    <uix:NTypeInto.Target>
-                                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="1dd5a36b-9812-4537-b34b-8bb6f9d88cb2" ContentHash="hVESiY3Bh02iNVDcvxhd5A" CvElementArea="1045, 415, 199, 40" CvType="InputBox" DesignTimeRectangle="1046, 416, 197, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="f53a1621-0eb2-4839-b7f1-fc07aab8e56b" InformativeScreenshot="80723f72c778d2103f012de08a6c879b.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/tLZj144fT0SRX4fGTEBGZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                    </uix:NTypeInto.Target>
-                                    <uix:NTypeInto.VerifyOptions>
-                                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                      </uix:VerifyExecutionTypeIntoOptions>
-                                    </uix:NTypeInto.VerifyOptions>
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                  </uix:NTypeInto>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '4 KFC Frenchs Forest'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="3" Version="V5">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="36211a39-4fb3-4355-8e93-b296ee0514f0" ContentHash="rOFlCUvpfkuSeOFjS769qQ" CvTextArea="1068, 476, 124, 12" CvTextArgument="4 KFC Frenchs Forest" CvType="Text" DesignTimeRectangle="1070, 473, 264, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='checkbox-dummy' tag='LABEL' /&gt;" Guid="337475c7-5f01-4be3-93c1-2287d1d3e130" InformativeScreenshot="503b88b19c8ebc57d48076f467ebe6bb.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/KnV6DPc9XkuHdSvnZMsYTQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                  </uix:NClick>
-                                </Sequence>
-                              </ActivityAction>
-                            </ui:ForEach.Body>
+                                </ui:ForEach>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                        </Sequence>
+                        <Sequence DisplayName="Select Channel Type" sap:VirtualizedContainerService.HintSize="1024,57" sap2010:WorkflowViewState.IdRef="Sequence_505">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="490,114" sap2010:WorkflowViewState.IdRef="Assign_123">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="scg:List(x:String)">[missingChannelList]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign sap:VirtualizedContainerService.HintSize="490,114" sap2010:WorkflowViewState.IdRef="Assign_124">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="s:String[]">[arrChannels]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="s:String[]">[ChannelType.Split(","c)]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0.8" DisplayName="Click 'Select Channel Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="490,189" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="953e78d8-ee06-40c1-9f80-a3dc05fd8672" ContentHash="zC___zHpp0SCnuYuTgtn_g" CvElementArea="55, 396, 296, 35" CvType="InputBox" DesignTimeRectangle="59, 397, 267, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select Channel Type*' tag='BUTTON' /&gt;" Guid="c23d35ad-c7d2-48e9-bd28-31fc60fde6a2" InformativeScreenshot="f2059475d7a56ef3dbbcfd6cf3ea40f8.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/zMsLTlIovECX3Mk7G28pNg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <If Condition="[arrChannels.Count = 1 And arrChannels.Last.ToString.Contains(&quot;All&quot;)]" sap:VirtualizedContainerService.HintSize="490,1629" sap2010:WorkflowViewState.IdRef="If_78">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                          </ui:ForEach>
-                        </Sequence>
-                      </If.Else>
-                    </If>
-                  </Sequence>
-                  <Sequence DisplayName="Select Channel Type" sap:VirtualizedContainerService.HintSize="1024,57" sap2010:WorkflowViewState.IdRef="Sequence_505">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="490,114" sap2010:WorkflowViewState.IdRef="Assign_123">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="scg:List(x:String)">[missingChannelList]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String)]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="490,114" sap2010:WorkflowViewState.IdRef="Assign_124">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="s:String[]">[arrChannels]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="s:String[]">[ChannelType.Split(","c)]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0.8" DisplayName="Click 'Select Channel Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="490,189" sap2010:WorkflowViewState.IdRef="NClick_48" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="953e78d8-ee06-40c1-9f80-a3dc05fd8672" ContentHash="zC___zHpp0SCnuYuTgtn_g" CvElementArea="55, 396, 296, 35" CvType="InputBox" DesignTimeRectangle="59, 397, 267, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select Channel Type*' tag='BUTTON' /&gt;" Guid="c23d35ad-c7d2-48e9-bd28-31fc60fde6a2" InformativeScreenshot="f2059475d7a56ef3dbbcfd6cf3ea40f8.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/zMsLTlIovECX3Mk7G28pNg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <If Condition="[arrChannels.Count = 1 And arrChannels.Last.ToString.Contains(&quot;All&quot;)]" sap:VirtualizedContainerService.HintSize="490,1629" sap2010:WorkflowViewState.IdRef="If_78">
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="488,190" sap2010:WorkflowViewState.IdRef="Sequence_500">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="454,130" sap2010:WorkflowViewState.IdRef="Click_96" KeyModifiers="None" MouseButton="BTN_LEFT">
-                            <ui:Click.CursorPosition>
-                              <ui:CursorPosition Position="Center">
-                                <ui:CursorPosition.OffsetX>
-                                  <InArgument x:TypeArguments="x:Int32" />
-                                </ui:CursorPosition.OffsetX>
-                                <ui:CursorPosition.OffsetY>
-                                  <InArgument x:TypeArguments="x:Int32" />
-                                </ui:CursorPosition.OffsetY>
-                              </ui:CursorPosition>
-                            </ui:Click.CursorPosition>
-                            <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="92830f7f-2d49-498b-91cd-cf9918abf8ff" InformativeScreenshot="d4a7476a6029f976ba3c440494e7774a" Selector="&lt;webctrl aaname='Select All' tag='BUTTON' /&gt;">
-                                <ui:Target.TimeoutMS>
-                                  <InArgument x:TypeArguments="x:Int32" />
-                                </ui:Target.TimeoutMS>
-                                <ui:Target.WaitForReady>
-                                  <InArgument x:TypeArguments="ui:WaitForReady" />
-                                </ui:Target.WaitForReady>
-                              </ui:Target>
-                            </ui:Click.Target>
-                          </ui:Click>
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="488,1301" sap2010:WorkflowViewState.IdRef="Sequence_504">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="454,1241" sap2010:WorkflowViewState.IdRef="ForEach`1_11" Values="[arrChannels]">
-                            <ui:ForEach.Body>
-                              <ActivityAction x:TypeArguments="x:String">
-                                <ActivityAction.Argument>
-                                  <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
-                                </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="452,1120" sap2010:WorkflowViewState.IdRef="Sequence_503">
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,286" sap2010:WorkflowViewState.IdRef="NTypeInto_54" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
-                                    <uix:NTypeInto.Target>
-                                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="65d421ac-eb4b-44d6-b040-88f4efe7e860" ContentHash="-bqxdXkWl0u6J2v-IMZayg" CvElementArea="61, 488, 267, 40" CvType="InputBox" DesignTimeRectangle="62, 489, 265, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="1ef72c17-2a34-41d0-9906-d03fa451df11" InformativeScreenshot="46ba6865d33b6ca0be564ab19340b6f2.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/3AhbmrQSVUSLMvc61q95ZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                    </uix:NTypeInto.Target>
-                                    <uix:NTypeInto.VerifyOptions>
-                                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                      </uix:VerifyExecutionTypeIntoOptions>
-                                    </uix:NTypeInto.VerifyOptions>
-                                  </uix:NTypeInto>
-                                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,774" sap2010:WorkflowViewState.IdRef="TryCatch_25">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <TryCatch.Try>
-                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LABEL'" sap:VirtualizedContainerService.HintSize="416,107" sap2010:WorkflowViewState.IdRef="Click_97" KeyModifiers="None" MouseButton="BTN_LEFT">
-                                        <ui:Click.CursorPosition>
-                                          <ui:CursorPosition Position="Center">
-                                            <ui:CursorPosition.OffsetX>
-                                              <InArgument x:TypeArguments="x:Int32" />
-                                            </ui:CursorPosition.OffsetX>
-                                            <ui:CursorPosition.OffsetY>
-                                              <InArgument x:TypeArguments="x:Int32" />
-                                            </ui:CursorPosition.OffsetY>
-                                          </ui:CursorPosition>
-                                        </ui:Click.CursorPosition>
-                                        <ui:Click.Target>
-                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="34b76997-de43-4f05-ba26-f1a8ebf25920" InformativeScreenshot="6eb0c4e1d516c86670a918c191fae2ff" Selector="&lt;webctrl class='checkbox-dummy' tag='LABEL' /&gt;" TimeoutMS="3000">
-                                            <ui:Target.WaitForReady>
-                                              <InArgument x:TypeArguments="ui:WaitForReady" />
-                                            </ui:Target.WaitForReady>
-                                          </ui:Target>
-                                        </ui:Click.Target>
-                                      </ui:Click>
-                                    </TryCatch.Try>
-                                    <TryCatch.Catches>
-                                      <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_25">
-                                        <ActivityAction x:TypeArguments="s:Exception">
-                                          <ActivityAction.Argument>
-                                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                                          </ActivityAction.Argument>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,391" sap2010:WorkflowViewState.IdRef="Sequence_501">
-                                            <sap:WorkflowViewStateService.ViewState>
-                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                              </scg:Dictionary>
-                                            </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Trace" Message="[currentText + &quot; Not found &quot;]" />
-                                            <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Item to List" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_2" ItemToAppend="[currentText]" List="[missingChannelList]" />
-                                          </Sequence>
-                                        </ActivityAction>
-                                      </Catch>
-                                    </TryCatch.Catches>
-                                    <TryCatch.Finally>
-                                      <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_502">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="488,190" sap2010:WorkflowViewState.IdRef="Sequence_500">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="454,130" sap2010:WorkflowViewState.IdRef="Click_96" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                  <ui:Click.CursorPosition>
+                                    <ui:CursorPosition Position="Center">
+                                      <ui:CursorPosition.OffsetX>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:CursorPosition.OffsetX>
+                                      <ui:CursorPosition.OffsetY>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:CursorPosition.OffsetY>
+                                    </ui:CursorPosition>
+                                  </ui:Click.CursorPosition>
+                                  <ui:Click.Target>
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="92830f7f-2d49-498b-91cd-cf9918abf8ff" InformativeScreenshot="d4a7476a6029f976ba3c440494e7774a" Selector="&lt;webctrl aaname='Select All' tag='BUTTON' /&gt;">
+                                      <ui:Target.TimeoutMS>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:Target.TimeoutMS>
+                                      <ui:Target.WaitForReady>
+                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                      </ui:Target.WaitForReady>
+                                    </ui:Target>
+                                  </ui:Click.Target>
+                                </ui:Click>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="488,1301" sap2010:WorkflowViewState.IdRef="Sequence_504">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="454,1241" sap2010:WorkflowViewState.IdRef="ForEach`1_11" Values="[arrChannels]">
+                                  <ui:ForEach.Body>
+                                    <ActivityAction x:TypeArguments="x:String">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="452,1120" sap2010:WorkflowViewState.IdRef="Sequence_503">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,286" sap2010:WorkflowViewState.IdRef="NTypeInto_54" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
+                                          <uix:NTypeInto.Target>
+                                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="65d421ac-eb4b-44d6-b040-88f4efe7e860" ContentHash="-bqxdXkWl0u6J2v-IMZayg" CvElementArea="61, 488, 267, 40" CvType="InputBox" DesignTimeRectangle="62, 489, 265, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="1ef72c17-2a34-41d0-9906-d03fa451df11" InformativeScreenshot="46ba6865d33b6ca0be564ab19340b6f2.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/3AhbmrQSVUSLMvc61q95ZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                          </uix:NTypeInto.Target>
+                                          <uix:NTypeInto.VerifyOptions>
+                                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            </uix:VerifyExecutionTypeIntoOptions>
+                                          </uix:NTypeInto.VerifyOptions>
+                                        </uix:NTypeInto>
+                                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,774" sap2010:WorkflowViewState.IdRef="TryCatch_25">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <TryCatch.Try>
+                                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LABEL'" sap:VirtualizedContainerService.HintSize="416,107" sap2010:WorkflowViewState.IdRef="Click_97" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                              <ui:Click.CursorPosition>
+                                                <ui:CursorPosition Position="Center">
+                                                  <ui:CursorPosition.OffsetX>
+                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                  </ui:CursorPosition.OffsetX>
+                                                  <ui:CursorPosition.OffsetY>
+                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                  </ui:CursorPosition.OffsetY>
+                                                </ui:CursorPosition>
+                                              </ui:Click.CursorPosition>
+                                              <ui:Click.Target>
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="34b76997-de43-4f05-ba26-f1a8ebf25920" InformativeScreenshot="6eb0c4e1d516c86670a918c191fae2ff" Selector="&lt;webctrl class='checkbox-dummy' tag='LABEL' /&gt;" TimeoutMS="3000">
+                                                  <ui:Target.WaitForReady>
+                                                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                  </ui:Target.WaitForReady>
+                                                </ui:Target>
+                                              </ui:Click.Target>
+                                            </ui:Click>
+                                          </TryCatch.Try>
+                                          <TryCatch.Catches>
+                                            <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_25">
+                                              <ActivityAction x:TypeArguments="s:Exception">
+                                                <ActivityAction.Argument>
+                                                  <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                                </ActivityAction.Argument>
+                                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,391" sap2010:WorkflowViewState.IdRef="Sequence_501">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Trace" Message="[currentText + &quot; Not found &quot;]" />
+                                                  <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Item to List" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_2" ItemToAppend="[currentText]" List="[missingChannelList]" />
+                                                </Sequence>
+                                              </ActivityAction>
+                                            </Catch>
+                                          </TryCatch.Catches>
+                                          <TryCatch.Finally>
+                                            <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_502">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </Sequence>
+                                          </TryCatch.Finally>
+                                        </TryCatch>
                                       </Sequence>
-                                    </TryCatch.Finally>
-                                  </TryCatch>
-                                </Sequence>
-                              </ActivityAction>
-                            </ui:ForEach.Body>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </ui:ForEach>
-                        </Sequence>
-                      </If.Else>
-                    </If>
-                    <Assign sap:VirtualizedContainerService.HintSize="490,107" sap2010:WorkflowViewState.IdRef="Assign_125">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="x:String">[missingChannels]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">[String.Join(",",missingChannelList)]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                  </Sequence>
-                  <Sequence DisplayName="Select Service Type" sap:VirtualizedContainerService.HintSize="1024,57" sap2010:WorkflowViewState.IdRef="Sequence_509">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="454,114" sap2010:WorkflowViewState.IdRef="Assign_126">
-                      <Assign.To>
-                        <OutArgument x:TypeArguments="s:String[]">[arrServices]</OutArgument>
-                      </Assign.To>
-                      <Assign.Value>
-                        <InArgument x:TypeArguments="s:String[]">[ServiceType.Split(","c)]</InArgument>
-                      </Assign.Value>
-                    </Assign>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Service Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="454,189" sap2010:WorkflowViewState.IdRef="NClick_49" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="e75b833c-cba3-416e-9e8c-a3b79cf653ba" ContentHash="3nQQ1hlOiU2Vx-yUZjjg4g" CvElementArea="384, 396, 295, 35" CvType="InputBox" DesignTimeRectangle="387, 397, 267, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select Service Type*' tag='BUTTON' /&gt;" Guid="9775a7c8-07e1-4613-9984-d93af3ed432d" InformativeScreenshot="90df334efe6a16218d934cf05ac852fe.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/gg6vVQYj9kKSe6RuzN0fXg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <If Condition="[arrServices.Count &gt;=1 And arrServices.Last.ToString.Contains(&quot;All&quot;)]" sap:VirtualizedContainerService.HintSize="454,955" sap2010:WorkflowViewState.IdRef="If_79">
-                      <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="Sequence_506">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="418,130" sap2010:WorkflowViewState.IdRef="Click_98" KeyModifiers="None" MouseButton="BTN_LEFT">
-                            <ui:Click.CursorPosition>
-                              <ui:CursorPosition Position="Center">
-                                <ui:CursorPosition.OffsetX>
-                                  <InArgument x:TypeArguments="x:Int32" />
-                                </ui:CursorPosition.OffsetX>
-                                <ui:CursorPosition.OffsetY>
-                                  <InArgument x:TypeArguments="x:Int32" />
-                                </ui:CursorPosition.OffsetY>
-                              </ui:CursorPosition>
-                            </ui:Click.CursorPosition>
-                            <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7246ae77-f358-43fe-ac05-edbbd3881860" InformativeScreenshot="f9da3bf972fb153fb64df257b1d84ff0" Selector="&lt;webctrl aaname='Select All' tag='BUTTON' /&gt;">
-                                <ui:Target.TimeoutMS>
-                                  <InArgument x:TypeArguments="x:Int32" />
-                                </ui:Target.TimeoutMS>
-                                <ui:Target.WaitForReady>
-                                  <InArgument x:TypeArguments="ui:WaitForReady" />
-                                </ui:Target.WaitForReady>
-                              </ui:Target>
-                            </ui:Click.Target>
-                          </ui:Click>
-                        </Sequence>
-                      </If.Then>
-                      <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="452,634" sap2010:WorkflowViewState.IdRef="Sequence_508">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="418,574" sap2010:WorkflowViewState.IdRef="ForEach`1_12" Values="[arrServices]">
-                            <ui:ForEach.Body>
-                              <ActivityAction x:TypeArguments="x:String">
-                                <ActivityAction.Argument>
-                                  <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
-                                </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,476" sap2010:WorkflowViewState.IdRef="Sequence_507">
+                                    </ActivityAction>
+                                  </ui:ForEach.Body>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_55" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
-                                    <uix:NTypeInto.Target>
-                                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="afa5eda3-4962-410b-be6e-4e9d6192d8a3" ContentHash="RVpra0p7x0WWKBkHzdS1ug" CvElementArea="390, 488, 281, 40" CvType="InputBox" DesignTimeRectangle="390, 489, 280, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="79613ae8-0abb-4cdb-bf05-d71475c35817" InformativeScreenshot="3915020b3ce95108fee6de70db0bd3fa.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/1KG4xnv1hESj-PAO-tQ3Vw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                    </uix:NTypeInto.Target>
-                                    <uix:NTypeInto.VerifyOptions>
-                                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                      </uix:VerifyExecutionTypeIntoOptions>
-                                    </uix:NTypeInto.VerifyOptions>
-                                  </uix:NTypeInto>
-                                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LABEL'" sap:VirtualizedContainerService.HintSize="382,130" sap2010:WorkflowViewState.IdRef="Click_99" KeyModifiers="None" MouseButton="BTN_LEFT">
-                                    <ui:Click.CursorPosition>
-                                      <ui:CursorPosition Position="Center">
-                                        <ui:CursorPosition.OffsetX>
-                                          <InArgument x:TypeArguments="x:Int32" />
-                                        </ui:CursorPosition.OffsetX>
-                                        <ui:CursorPosition.OffsetY>
-                                          <InArgument x:TypeArguments="x:Int32" />
-                                        </ui:CursorPosition.OffsetY>
-                                      </ui:CursorPosition>
-                                    </ui:Click.CursorPosition>
-                                    <ui:Click.Target>
-                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="98a6e950-6217-47a4-b56b-a7342bdd8e13" InformativeScreenshot="ba808121c300f4ae120055c57d1a5918" Selector="&lt;webctrl class='checkbox-dummy' tag='LABEL' /&gt;">
-                                        <ui:Target.TimeoutMS>
-                                          <InArgument x:TypeArguments="x:Int32" />
-                                        </ui:Target.TimeoutMS>
-                                        <ui:Target.WaitForReady>
-                                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                                        </ui:Target.WaitForReady>
-                                      </ui:Target>
-                                    </ui:Click.Target>
-                                  </ui:Click>
-                                </Sequence>
-                              </ActivityAction>
-                            </ui:ForEach.Body>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </ui:ForEach>
-                        </Sequence>
-                      </If.Else>
-                    </If>
-                  </Sequence>
-                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1024,122" sap2010:WorkflowViewState.IdRef="Delay_81" />
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,225" sap2010:WorkflowViewState.IdRef="NClick_67" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="43c692b1-df98-4a24-a51a-6fa74f39faba" ContentHash="AJVaPJiO-kW1K9gu5Rxqeg" CvElementArea="1146, 538, 193, 51" CvTextArea="1216, 557, 50, 12" CvTextArgument="UPDATE" CvType="Button" DesignTimeRectangle="1147, 540, 189, 48" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="00c95b15-1173-41c3-9ebe-7e2670aa4593" InformativeScreenshot="0f583c81b50d6ff71979946fea5e6912.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/Gs5SU6ZSD0y-IxI3hD1s0g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                    </uix:NClick.Target>
-                    <uix:NClick.VerifyOptions>
-                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                        <uix:VerifyExecutionOptions.Retry>
-                          <InArgument x:TypeArguments="x:Boolean" />
-                        </uix:VerifyExecutionOptions.Retry>
-                        <uix:VerifyExecutionOptions.Timeout>
-                          <InArgument x:TypeArguments="x:Double" />
-                        </uix:VerifyExecutionOptions.Timeout>
-                      </uix:VerifyExecutionOptions>
-                    </uix:NClick.VerifyOptions>
-                  </uix:NClick>
-                  <Assign sap:VirtualizedContainerService.HintSize="1024,114" sap2010:WorkflowViewState.IdRef="Assign_187">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:String">[strDate]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:String">[TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("AUS Eastern Standard Time")).ToString("dd-MM-yyyy hh:mm tt")]</InArgument>
-                    </Assign.Value>
-                  </Assign>
-                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="1024,122" sap2010:WorkflowViewState.IdRef="Delay_80" />
-                  <uix:NCheckState DisplayName="Check App State 'SuccessTask scheduled s…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1024,1063" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="10" Version="V5">
-                    <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="502,821" sap2010:WorkflowViewState.IdRef="Sequence_693">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468,189" sap2010:WorkflowViewState.IdRef="NClick_68" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
-                          <uix:NClick.Target>
-                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="f4da7145-c5d0-4e87-a20a-16f47e0e0f28" ContentHash="95Y43_AQBkmSGCBoqOBn-g" CvElementArea="826, 380, 101, 40" CvTextArea="858, 392, 35, 13" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="827, 381, 98, 37" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Close' tag='BUTTON' type='button' /&gt;" Guid="bc8633dc-f7d3-4902-a466-f62b7a29eb94" InformativeScreenshot="45aed051d903bbd95bd7570e2900f009.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/L28ORBY-qUa5D0wl0yJArw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                          </uix:NClick.Target>
-                        </uix:NClick>
-                        <Sequence DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="468,570" sap2010:WorkflowViewState.IdRef="Sequence_695">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_183">
+                                </ui:ForEach>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <Assign sap:VirtualizedContainerService.HintSize="490,107" sap2010:WorkflowViewState.IdRef="Assign_125">
                             <Assign.To>
-                              <OutArgument x:TypeArguments="x:String">[mailBody]</OutArgument>
+                              <OutArgument x:TypeArguments="x:String">[missingChannels]</OutArgument>
                             </Assign.To>
                             <Assign.Value>
-                              <InArgument x:TypeArguments="x:String" xml:space="preserve">[$"&lt;html&gt;
+                              <InArgument x:TypeArguments="x:String">[String.Join(",",missingChannelList)]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                        <Sequence DisplayName="Select Service Type" sap:VirtualizedContainerService.HintSize="1024,57" sap2010:WorkflowViewState.IdRef="Sequence_509">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="454,114" sap2010:WorkflowViewState.IdRef="Assign_126">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="s:String[]">[arrServices]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="s:String[]">[ServiceType.Split(","c)]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Service Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="454,189" sap2010:WorkflowViewState.IdRef="NClick_49" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="e75b833c-cba3-416e-9e8c-a3b79cf653ba" ContentHash="3nQQ1hlOiU2Vx-yUZjjg4g" CvElementArea="384, 396, 295, 35" CvType="InputBox" DesignTimeRectangle="387, 397, 267, 31" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select Service Type*' tag='BUTTON' /&gt;" Guid="9775a7c8-07e1-4613-9984-d93af3ed432d" InformativeScreenshot="90df334efe6a16218d934cf05ac852fe.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/gg6vVQYj9kKSe6RuzN0fXg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <If Condition="[arrServices.Count &gt;=1 And arrServices.Last.ToString.Contains(&quot;All&quot;)]" sap:VirtualizedContainerService.HintSize="454,955" sap2010:WorkflowViewState.IdRef="If_79">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="Sequence_506">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="418,130" sap2010:WorkflowViewState.IdRef="Click_98" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                  <ui:Click.CursorPosition>
+                                    <ui:CursorPosition Position="Center">
+                                      <ui:CursorPosition.OffsetX>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:CursorPosition.OffsetX>
+                                      <ui:CursorPosition.OffsetY>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:CursorPosition.OffsetY>
+                                    </ui:CursorPosition>
+                                  </ui:Click.CursorPosition>
+                                  <ui:Click.Target>
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7246ae77-f358-43fe-ac05-edbbd3881860" InformativeScreenshot="f9da3bf972fb153fb64df257b1d84ff0" Selector="&lt;webctrl aaname='Select All' tag='BUTTON' /&gt;">
+                                      <ui:Target.TimeoutMS>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:Target.TimeoutMS>
+                                      <ui:Target.WaitForReady>
+                                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                                      </ui:Target.WaitForReady>
+                                    </ui:Target>
+                                  </ui:Click.Target>
+                                </ui:Click>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="452,634" sap2010:WorkflowViewState.IdRef="Sequence_508">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="418,574" sap2010:WorkflowViewState.IdRef="ForEach`1_12" Values="[arrServices]">
+                                  <ui:ForEach.Body>
+                                    <ActivityAction x:TypeArguments="x:String">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,476" sap2010:WorkflowViewState.IdRef="Sequence_507">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_55" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Text="[currentText.Trim]" Version="V5">
+                                          <uix:NTypeInto.Target>
+                                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/ProductExclusionAdvance" CVScreenId="afa5eda3-4962-410b-be6e-4e9d6192d8a3" ContentHash="RVpra0p7x0WWKBkHzdS1ug" CvElementArea="390, 488, 281, 40" CvType="InputBox" DesignTimeRectangle="390, 489, 280, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" Guid="79613ae8-0abb-4cdb-bf05-d71475c35817" InformativeScreenshot="3915020b3ce95108fee6de70db0bd3fa.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/1KG4xnv1hESj-PAO-tQ3Vw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                          </uix:NTypeInto.Target>
+                                          <uix:NTypeInto.VerifyOptions>
+                                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                <InArgument x:TypeArguments="x:Boolean" />
+                                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                <InArgument x:TypeArguments="x:Double" />
+                                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            </uix:VerifyExecutionTypeIntoOptions>
+                                          </uix:NTypeInto.VerifyOptions>
+                                        </uix:NTypeInto>
+                                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LABEL'" sap:VirtualizedContainerService.HintSize="382,130" sap2010:WorkflowViewState.IdRef="Click_99" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                          <ui:Click.CursorPosition>
+                                            <ui:CursorPosition Position="Center">
+                                              <ui:CursorPosition.OffsetX>
+                                                <InArgument x:TypeArguments="x:Int32" />
+                                              </ui:CursorPosition.OffsetX>
+                                              <ui:CursorPosition.OffsetY>
+                                                <InArgument x:TypeArguments="x:Int32" />
+                                              </ui:CursorPosition.OffsetY>
+                                            </ui:CursorPosition>
+                                          </ui:Click.CursorPosition>
+                                          <ui:Click.Target>
+                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="98a6e950-6217-47a4-b56b-a7342bdd8e13" InformativeScreenshot="ba808121c300f4ae120055c57d1a5918" Selector="&lt;webctrl class='checkbox-dummy' tag='LABEL' /&gt;">
+                                              <ui:Target.TimeoutMS>
+                                                <InArgument x:TypeArguments="x:Int32" />
+                                              </ui:Target.TimeoutMS>
+                                              <ui:Target.WaitForReady>
+                                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                                              </ui:Target.WaitForReady>
+                                            </ui:Target>
+                                          </ui:Click.Target>
+                                        </ui:Click>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:ForEach.Body>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:ForEach>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                        </Sequence>
+                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1024,122" sap2010:WorkflowViewState.IdRef="Delay_81" />
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Update'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,225" sap2010:WorkflowViewState.IdRef="NClick_67" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="43c692b1-df98-4a24-a51a-6fa74f39faba" ContentHash="AJVaPJiO-kW1K9gu5Rxqeg" CvElementArea="1146, 538, 193, 51" CvTextArea="1216, 557, 50, 12" CvTextArgument="UPDATE" CvType="Button" DesignTimeRectangle="1147, 540, 189, 48" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="00c95b15-1173-41c3-9ebe-7e2670aa4593" InformativeScreenshot="0f583c81b50d6ff71979946fea5e6912.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/Gs5SU6ZSD0y-IxI3hD1s0g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <Assign sap:VirtualizedContainerService.HintSize="1024,114" sap2010:WorkflowViewState.IdRef="Assign_187">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[strDate]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("AUS Eastern Standard Time")).ToString("dd-MM-yyyy hh:mm tt")]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="1024,122" sap2010:WorkflowViewState.IdRef="Delay_80" />
+                        <uix:NCheckState DisplayName="Check App State 'SuccessTask scheduled s…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1024,1063" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Timeout="10" Version="V5">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="502,821" sap2010:WorkflowViewState.IdRef="Sequence_693">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468,189" sap2010:WorkflowViewState.IdRef="NClick_68" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="862e3cf1-eff5-411b-90ca-a749954de3d6" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="f4da7145-c5d0-4e87-a20a-16f47e0e0f28" ContentHash="95Y43_AQBkmSGCBoqOBn-g" CvElementArea="826, 380, 101, 40" CvTextArea="858, 392, 35, 13" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="827, 381, 98, 37" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Close' tag='BUTTON' type='button' /&gt;" Guid="bc8633dc-f7d3-4902-a466-f62b7a29eb94" InformativeScreenshot="45aed051d903bbd95bd7570e2900f009.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/L28ORBY-qUa5D0wl0yJArw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <Sequence DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="468,570" sap2010:WorkflowViewState.IdRef="Sequence_695">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_183">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[mailBody]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String" xml:space="preserve">[$"&lt;html&gt;
   &lt;body style='font-family:Arial; font-size:14px; color:#333;'&gt;
     &lt;p&gt;Hi,&lt;/p&gt;
     &lt;p&gt;MenuSync has been completed successfully. &lt;/p&gt;
@@ -1526,45 +1534,45 @@
     &lt;p&gt;RPA Team&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;"]</InArgument>
-                            </Assign.Value>
-                          </Assign>
-                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic MenuSync Success" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
-                            <ui:SendMail.AttachmentsBackup>
-                              <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
-                                <usau1:BackupSlot.BackupValues>
-                                  <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
-                                </usau1:BackupSlot.BackupValues>
-                              </usau1:BackupSlot>
-                            </ui:SendMail.AttachmentsBackup>
-                            <ui:SendMail.ConnectionDetailsBackupSlot>
-                              <usau1:BackupSlot x:TypeArguments="umae1:ConnectionDetails" StoredValue="LegacyConfiguration">
-                                <usau1:BackupSlot.BackupValues>
-                                  <scg:List x:TypeArguments="x:Object" x:Key="IntegrationService" Capacity="1">
-                                    <x:Null />
-                                  </scg:List>
-                                </usau1:BackupSlot.BackupValues>
-                              </usau1:BackupSlot>
-                            </ui:SendMail.ConnectionDetailsBackupSlot>
-                            <ui:SendMail.Files>
-                              <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
-                            </ui:SendMail.Files>
-                          </ui:SendMail>
-                        </Sequence>
-                      </Sequence>
-                    </uix:NCheckState.IfExists>
-                    <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,545" sap2010:WorkflowViewState.IdRef="Sequence_694">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_185">
-                          <Assign.To>
-                            <OutArgument x:TypeArguments="x:String">[mailBody]</OutArgument>
-                          </Assign.To>
-                          <Assign.Value>
-                            <InArgument x:TypeArguments="x:String" xml:space="preserve">[$"&lt;html&gt;
+                                  </Assign.Value>
+                                </Assign>
+                                <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic MenuSync Success" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
+                                  <ui:SendMail.AttachmentsBackup>
+                                    <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                                      <usau1:BackupSlot.BackupValues>
+                                        <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                                      </usau1:BackupSlot.BackupValues>
+                                    </usau1:BackupSlot>
+                                  </ui:SendMail.AttachmentsBackup>
+                                  <ui:SendMail.ConnectionDetailsBackupSlot>
+                                    <usau1:BackupSlot x:TypeArguments="umae1:ConnectionDetails" StoredValue="LegacyConfiguration">
+                                      <usau1:BackupSlot.BackupValues>
+                                        <scg:List x:TypeArguments="x:Object" x:Key="IntegrationService" Capacity="1">
+                                          <x:Null />
+                                        </scg:List>
+                                      </usau1:BackupSlot.BackupValues>
+                                    </usau1:BackupSlot>
+                                  </ui:SendMail.ConnectionDetailsBackupSlot>
+                                  <ui:SendMail.Files>
+                                    <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                  </ui:SendMail.Files>
+                                </ui:SendMail>
+                              </Sequence>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,545" sap2010:WorkflowViewState.IdRef="Sequence_694">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_185">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[mailBody]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String" xml:space="preserve">[$"&lt;html&gt;
   &lt;body style='font-family:Arial; font-size:14px; color:#333;'&gt;
     &lt;p&gt;Hi,&lt;/p&gt;
     &lt;p&gt;MenuSync Failed. After Submit Popup didnt appear. &lt;/p&gt;
@@ -1576,9 +1584,57 @@
     &lt;p&gt;RPA Team&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;"]</InArgument>
-                          </Assign.Value>
-                        </Assign>
-                        <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic MenuSync Failed" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
+                                </Assign.Value>
+                              </Assign>
+                              <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[mailBody]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="434,368" sap2010:WorkflowViewState.IdRef="SendMail_3" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic MenuSync Failed" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
+                                <ui:SendMail.AttachmentsBackup>
+                                  <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                                    <usau1:BackupSlot.BackupValues>
+                                      <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                                    </usau1:BackupSlot.BackupValues>
+                                  </usau1:BackupSlot>
+                                </ui:SendMail.AttachmentsBackup>
+                                <ui:SendMail.ConnectionDetailsBackupSlot>
+                                  <usau1:BackupSlot x:TypeArguments="umae1:ConnectionDetails" StoredValue="LegacyConfiguration">
+                                    <usau1:BackupSlot.BackupValues>
+                                      <scg:List x:TypeArguments="x:Object" x:Key="IntegrationService" Capacity="1">
+                                        <x:Null />
+                                      </scg:List>
+                                    </usau1:BackupSlot.BackupValues>
+                                  </usau1:BackupSlot>
+                                </ui:SendMail.ConnectionDetailsBackupSlot>
+                                <ui:SendMail.Files>
+                                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                </ui:SendMail.Files>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:SendMail>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" ContentHash="7rprUKXqF0aRZUUKZsVGyQ" DesignTimeRectangle="441, 251, 500, 114" FullSelectorArgument="&lt;webctrl class='modal-body' tag='DIV' /&gt;" Guid="5a9b084f-dde2-4bb1-aa6d-3b1b70b4fca0" InformativeScreenshot="597caae07712780bac4cdd5811d28c0a.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/NbyHtgxT70Gy6S1kQsAWmA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                          </uix:NCheckState.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,430" sap2010:WorkflowViewState.IdRef="Sequence_701">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;&amp;quot;Menu Sync page loading issue.&amp;quot;&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="416,368" sap2010:WorkflowViewState.IdRef="SendMail_4" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="MenuSync Failed" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
                           <ui:SendMail.AttachmentsBackup>
                             <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
                               <usau1:BackupSlot.BackupValues>
@@ -1608,69 +1664,77 @@
                       </Sequence>
                     </uix:NCheckState.IfNotExists>
                     <uix:NCheckState.Target>
-                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" ContentHash="7rprUKXqF0aRZUUKZsVGyQ" DesignTimeRectangle="441, 251, 500, 114" FullSelectorArgument="&lt;webctrl class='modal-body' tag='DIV' /&gt;" Guid="5a9b084f-dde2-4bb1-aa6d-3b1b70b4fca0" InformativeScreenshot="597caae07712780bac4cdd5811d28c0a.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/NbyHtgxT70Gy6S1kQsAWmA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                      <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="43c692b1-df98-4a24-a51a-6fa74f39faba" ContentHash="KPM3AKtnxkCa3o5jD6o1Dw" CvTextArea="39, 202, 216, 25" CvTextArgument="Menu Pull Scheduler" CvType="Text" DesignTimeRectangle="40, 199, 1310, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="8ed6ab9f-0e27-451c-b851-7bcb34bcde57" InformativeScreenshot="652281f6e3476797d05284a70c8e0ebd.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/-tVO-NsMT0iYZYDzjALB4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                     </uix:NCheckState.Target>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
                 </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,430" sap2010:WorkflowViewState.IdRef="Sequence_701">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="Existing" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;&amp;quot;Menu Sync page loading issue.&amp;quot;&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="416,368" sap2010:WorkflowViewState.IdRef="SendMail_4" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="MenuSync Failed" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
-                    <ui:SendMail.AttachmentsBackup>
-                      <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
-                        <usau1:BackupSlot.BackupValues>
-                          <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
-                        </usau1:BackupSlot.BackupValues>
-                      </usau1:BackupSlot>
-                    </ui:SendMail.AttachmentsBackup>
-                    <ui:SendMail.ConnectionDetailsBackupSlot>
-                      <usau1:BackupSlot x:TypeArguments="umae1:ConnectionDetails" StoredValue="LegacyConfiguration">
-                        <usau1:BackupSlot.BackupValues>
-                          <scg:List x:TypeArguments="x:Object" x:Key="IntegrationService" Capacity="1">
-                            <x:Null />
-                          </scg:List>
-                        </usau1:BackupSlot.BackupValues>
-                      </usau1:BackupSlot>
-                    </ui:SendMail.ConnectionDetailsBackupSlot>
-                    <ui:SendMail.Files>
-                      <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
-                    </ui:SendMail.Files>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:SendMail>
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable BrowserURL="uat-kfc-au-admin.cognizantorderservnxtgen.com/MenuPull" CVScreenId="43c692b1-df98-4a24-a51a-6fa74f39faba" ContentHash="KPM3AKtnxkCa3o5jD6o1Dw" CvTextArea="39, 202, 216, 25" CvTextArgument="Menu Pull Scheduler" CvType="Text" DesignTimeRectangle="40, 199, 1310, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="8ed6ab9f-0e27-451c-b851-7bcb34bcde57" InformativeScreenshot="652281f6e3476797d05284a70c8e0ebd.png" Reference="mEDzMWy4KESA-HIzYnwmGQ/-tVO-NsMT0iYZYDzjALB4g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Menu Pull Scheduler-KFC-Australia-Admin' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-              </uix:NCheckState.Target>
-            </uix:NCheckState>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="E2bEoqWJoUuagP17gNbJZw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAbxSURBVFhHpZZtTFvnFcf9pWuypg3tmjVrGmLeEoMBG2PaJBDb2CkvyQJpvlXtFqRpmrSXT5s67a3pl0nTptXkhdAklEsCbZdG3VsrVe3AhhBCs3ZDi5ZAo21OA5hAOztNmrXhXj9n//M8j415SUe7I/30P+fh+vzPufcasC03YgF3zkzQ0zITrDLAyPshb3ImVEXTQS/NBDn3RmeClcZ0qHIvX6s/9v/HVIPbfjVU1com2kxcra2k6VovqBQM14sIVBpTAbddt/nsoTb2htlUGgWUWcYQ9dWAR0wFOPcgV8r1VMCj8AOfZ59uufzgyWES00a6sUfm8ww0cTZiuPZViLi/Qp1xrohNbV7m3ZiurXChUSzbIIO/QjDKUBlpE4r73BmdhE5ucys4V/X/HoI3h1EsvYFSjTaa9Kmm8W3aSDXPMJGmxkWTNS4BBaoer3ZhCMfSQ/Azh1FMGWU1z5ipxnIA1hq3kDUbaENlJHMxLmul49XljFDqii35LZnwucMZE4XI3khvo41Uzg1lzc1l7aIrOGO0KV3ZupAycWVLWVjbqnC/tNve/h3/nAmboqk2I7mNNpn57jfoxss9ZMYnKR3i5rskZl4la2QXWecqGcGaYn3LQ5JzHpx5BM5kTcNZ70PlS3uMbUYzjYUq1Fb6dknFxDKvr6YbJ3u0JVE8Kah/bBaYdGkqpU8xzNSLZL3jJ/OtChgxbgzhxjDQYbeqoajVXXAbu3M8LzxGzL4fBjO3io1Z39tSRuN1W+nWpTFp8JeYSd8yPqKqZ65R1T4N8qbwdYqOzsprxM0xst6ugZmLDZUOc85aDi3HEOVJGsG74H5hd4u7ZzdVANb+Jq80ZfCsBOv133TLxkein5AXhhmezso1R3ENh4h3K7PhMk1pljJOMXumpMXm7m42ALm6m4S7p1k8+Ys6ury5lN7b7BTMxGP1siFvV/l0UuLROse1eefv4C5xpC7sFdZZJ5lnS8hagtRwiWFzdTdHXScwwIkmTTO9useLIZwUe8RJN177nWy289kPqeJnyTlglNF0rutvdt6QnxFTJ4R5thhm2TgwlINS0NRQ8Yit/HhTsvz4LkpT1rWLth9spL/7yij2cIm4dWmUxuIWudF8MYnbkKTJJF7MTyZguBGGmiEJMSZInS1K2MqMr8JUImSu659/u5piVcWCN4lcnCXXTxNLA7P5dYLKoRH9QlpDRWSeKSSLQW4NaZV1gbCVdu6kUpiWGjuF1C6lj7Q30vkap2zSd/EWlaHpQtgoW7PP+zA0h3WmAEb5wjoDhgowTD7O5uABks7OHUKxk6BAqvjeUz5hxidoMpGi0p/8+zMxiscmProAkzwyB/Ogdgxhl7XKN3CdsJU8v+OvJR2NpNhBqGXuZH2+UQz2n5SbtHRcJycaO38MWD+Ful9dk59JTZ+CGRvlCnMwlyzJBrBecG4Oro/aHB0NRvGxRpqjQQ7gONYgOP/6a0/JZn/+1yyVwLwYKP1A5nP13HkvHhmH9fYWMk+vBw/B9CHBqnOyWE+vM2yOow0tIGPIyPpovQCsdPy8+ioe6rtJjh99QA6YSF0Izg/1/kdee228E4brYLYO2z6I/EGYK6y0Dqzba7MbgZziI/XJTUfqKRsH69E6wXi79ojR9/8hG//pwi0K/jJJm2CYzdeOfUjn/qlevInEu5QYLCFz4CuatTBdK9JqnX5A5hTNUX+WNz1X37rpuTraqJH5kTqRroHwGntE1/nfSgOOi5OWHIaZwEuaDr6m849bsN1aGD+QwWLt/7JUa2CNsPrXGNKcw9HeYN/Y/igxRVrTeRaisH27CPQ8Sa+MvkEX9R3hGL9+lYy/vUJP/P4H5O/wwWiNYkBr//0ytwbuFzIH2H7+f0ZFbaHWosPbKU1hG+ujxKaFhyWkNCT4ZxldwKk/FMHkS8pU6n3YVipZyFlTA/ct/k/ZHg7kFBwOxQraVOOCQyEqBKx8JpXP2ubX2Tze9TDM7hVm9F4YAlaAM605wormxLTl4sAQ9oK2YCzdMP9gkApA/qGgkHCu66XOL7+JZxxdjQHuAathuBqGUNSa2KJbvzB4iPwDtTHZ9EAt5R2sFQznafJY8XNWmR8I0ve7y8mM3I1N71EKrOgqmK4SnM9G7ob5ik83TwcPkbe/NgbIfiAg8vYHpMochvb9Kk9T076VLr+B5xxZxabQu+ZhRe6Kfbxc8+zAIM/YW2F+W/wYxi86Xs4ns28ljL4oMSMrBNdmBPStDGe+758n+G7khv3GhrCfNrT6Re6zPsF5btgn6+q2zTBZobmTzF4QuTNp9q5s/fj1z7H17QKD5Kz/9bYWDNCFAaLQJKCTp/A7PXJHItX7hZFU7wpjtu+OluVvbLP9F5lmWAkTeM7rAAAAAElFTkSuQmCC" InformativeScreenshot="dcee5ec5202364c68f301a78cf9309ff.jpg" Reference="mEDzMWy4KESA-HIzYnwmGQ/c6KVBVsPUUa8sFk1gNUbLw" Selector="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" Url="[OrderServerURL+&quot;/ProductExclusionAdvance&quot;]" Version="V2" />
-      </uix:NApplicationCard.TargetApp>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </uix:NApplicationCard>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="E2bEoqWJoUuagP17gNbJZw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAbxSURBVFhHpZZtTFvnFcf9pWuypg3tmjVrGmLeEoMBG2PaJBDb2CkvyQJpvlXtFqRpmrSXT5s67a3pl0nTptXkhdAklEsCbZdG3VsrVe3AhhBCs3ZDi5ZAo21OA5hAOztNmrXhXj9n//M8j415SUe7I/30P+fh+vzPufcasC03YgF3zkzQ0zITrDLAyPshb3ImVEXTQS/NBDn3RmeClcZ0qHIvX6s/9v/HVIPbfjVU1com2kxcra2k6VovqBQM14sIVBpTAbddt/nsoTb2htlUGgWUWcYQ9dWAR0wFOPcgV8r1VMCj8AOfZ59uufzgyWES00a6sUfm8ww0cTZiuPZViLi/Qp1xrohNbV7m3ZiurXChUSzbIIO/QjDKUBlpE4r73BmdhE5ucys4V/X/HoI3h1EsvYFSjTaa9Kmm8W3aSDXPMJGmxkWTNS4BBaoer3ZhCMfSQ/Azh1FMGWU1z5ipxnIA1hq3kDUbaENlJHMxLmul49XljFDqii35LZnwucMZE4XI3khvo41Uzg1lzc1l7aIrOGO0KV3ZupAycWVLWVjbqnC/tNve/h3/nAmboqk2I7mNNpn57jfoxss9ZMYnKR3i5rskZl4la2QXWecqGcGaYn3LQ5JzHpx5BM5kTcNZ70PlS3uMbUYzjYUq1Fb6dknFxDKvr6YbJ3u0JVE8Kah/bBaYdGkqpU8xzNSLZL3jJ/OtChgxbgzhxjDQYbeqoajVXXAbu3M8LzxGzL4fBjO3io1Z39tSRuN1W+nWpTFp8JeYSd8yPqKqZ65R1T4N8qbwdYqOzsprxM0xst6ugZmLDZUOc85aDi3HEOVJGsG74H5hd4u7ZzdVANb+Jq80ZfCsBOv133TLxkein5AXhhmezso1R3ENh4h3K7PhMk1pljJOMXumpMXm7m42ALm6m4S7p1k8+Ys6ury5lN7b7BTMxGP1siFvV/l0UuLROse1eefv4C5xpC7sFdZZJ5lnS8hagtRwiWFzdTdHXScwwIkmTTO9useLIZwUe8RJN177nWy289kPqeJnyTlglNF0rutvdt6QnxFTJ4R5thhm2TgwlINS0NRQ8Yit/HhTsvz4LkpT1rWLth9spL/7yij2cIm4dWmUxuIWudF8MYnbkKTJJF7MTyZguBGGmiEJMSZInS1K2MqMr8JUImSu659/u5piVcWCN4lcnCXXTxNLA7P5dYLKoRH9QlpDRWSeKSSLQW4NaZV1gbCVdu6kUpiWGjuF1C6lj7Q30vkap2zSd/EWlaHpQtgoW7PP+zA0h3WmAEb5wjoDhgowTD7O5uABks7OHUKxk6BAqvjeUz5hxidoMpGi0p/8+zMxiscmProAkzwyB/Ogdgxhl7XKN3CdsJU8v+OvJR2NpNhBqGXuZH2+UQz2n5SbtHRcJycaO38MWD+Ful9dk59JTZ+CGRvlCnMwlyzJBrBecG4Oro/aHB0NRvGxRpqjQQ7gONYgOP/6a0/JZn/+1yyVwLwYKP1A5nP13HkvHhmH9fYWMk+vBw/B9CHBqnOyWE+vM2yOow0tIGPIyPpovQCsdPy8+ioe6rtJjh99QA6YSF0Izg/1/kdee228E4brYLYO2z6I/EGYK6y0Dqzba7MbgZziI/XJTUfqKRsH69E6wXi79ojR9/8hG//pwi0K/jJJm2CYzdeOfUjn/qlevInEu5QYLCFz4CuatTBdK9JqnX5A5hTNUX+WNz1X37rpuTraqJH5kTqRroHwGntE1/nfSgOOi5OWHIaZwEuaDr6m849bsN1aGD+QwWLt/7JUa2CNsPrXGNKcw9HeYN/Y/igxRVrTeRaisH27CPQ8Sa+MvkEX9R3hGL9+lYy/vUJP/P4H5O/wwWiNYkBr//0ytwbuFzIH2H7+f0ZFbaHWosPbKU1hG+ujxKaFhyWkNCT4ZxldwKk/FMHkS8pU6n3YVipZyFlTA/ct/k/ZHg7kFBwOxQraVOOCQyEqBKx8JpXP2ubX2Tze9TDM7hVm9F4YAlaAM605wormxLTl4sAQ9oK2YCzdMP9gkApA/qGgkHCu66XOL7+JZxxdjQHuAathuBqGUNSa2KJbvzB4iPwDtTHZ9EAt5R2sFQznafJY8XNWmR8I0ve7y8mM3I1N71EKrOgqmK4SnM9G7ob5ik83TwcPkbe/NgbIfiAg8vYHpMochvb9Kk9T076VLr+B5xxZxabQu+ZhRe6Kfbxc8+zAIM/YW2F+W/wYxi86Xs4ns28ljL4oMSMrBNdmBPStDGe+758n+G7khv3GhrCfNrT6Re6zPsF5btgn6+q2zTBZobmTzF4QuTNp9q5s/fj1z7H17QKD5Kz/9bYWDNCFAaLQJKCTp/A7PXJHItX7hZFU7wpjtu+OluVvbLP9F5lmWAkTeM7rAAAAAElFTkSuQmCC" InformativeScreenshot="dcee5ec5202364c68f301a78cf9309ff.jpg" Reference="mEDzMWy4KESA-HIzYnwmGQ/c6KVBVsPUUa8sFk1gNUbLw" Selector="&lt;html app='chrome.exe' title='Product Exclusion-KFC-Australia-Admin' /&gt;" Url="[OrderServerURL+&quot;/ProductExclusionAdvance&quot;]" Version="V2" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_27">
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,599" sap2010:WorkflowViewState.IdRef="Sequence_707">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Info" Message="[&quot;MenuSync error: &quot;+exception.Message]" />
+              <ui:SendMail ResourceAttachmentList="{x:Null}" AttachmentInputMode="Existing" AttachmentsCollection="{x:Null}" Bcc="{x:Null}" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Menu Sync : Store, Channel, or Service might be missing.&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" Cc="{x:Null}" ConnectionMode="LegacyConfiguration" ContinueOnError="{x:Null}" DisplayName="Send SMTP Email" Email="{x:Null}" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="382,366" sap2010:WorkflowViewState.IdRef="SendMail_5" IgnoreCRL="False" IsBodyHtml="True" MailMessage="{x:Null}" Name="[ServerEnv]" Password="{x:Null}" Port="25" ReplyTo="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecureConnection="None" SecurePassword="{x:Null}" Server="dalmail.tgr.net" Subject="MenuSync Failed" TimeoutMS="{x:Null}" To="[Report_Receivers]" UseISConnection="False" UseOAuth="False">
+                <ui:SendMail.AttachmentsBackup>
+                  <usau1:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                    <usau1:BackupSlot.BackupValues>
+                      <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                    </usau1:BackupSlot.BackupValues>
+                  </usau1:BackupSlot>
+                </ui:SendMail.AttachmentsBackup>
+                <ui:SendMail.ConnectionDetailsBackupSlot>
+                  <usau1:BackupSlot x:TypeArguments="umae1:ConnectionDetails" StoredValue="LegacyConfiguration">
+                    <usau1:BackupSlot.BackupValues>
+                      <scg:List x:TypeArguments="x:Object" x:Key="IntegrationService" Capacity="1">
+                        <x:Null />
+                      </scg:List>
+                    </usau1:BackupSlot.BackupValues>
+                  </usau1:BackupSlot>
+                </ui:SendMail.ConnectionDetailsBackupSlot>
+                <ui:SendMail.Files>
+                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                </ui:SendMail.Files>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:SendMail>
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+      <TryCatch.Finally>
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_708">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </TryCatch.Finally>
+    </TryCatch>
   </Sequence>
 </Activity>

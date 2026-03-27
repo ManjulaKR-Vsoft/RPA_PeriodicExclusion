@@ -50,6 +50,7 @@
       <x:String>UiPath.Mail.Activities</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Globalization</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -115,15 +116,25 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Practice" sap:VirtualizedContainerService.HintSize="1282,673" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Practice" sap:VirtualizedContainerService.HintSize="1282,1004" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="SheetName" />
+      <Variable x:TypeArguments="x:String" Name="strDate" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="520,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strDate]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("AUS Eastern Standard Time")).ToString("dd-MM-yyyy hh:mm tt")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="520,117" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[strDate]" />
     <Assign sap:VirtualizedContainerService.HintSize="520,114" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[SheetName]</OutArgument>
@@ -132,7 +143,7 @@
         <InArgument x:TypeArguments="x:String">Sheet1</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:SendMail ResourceAttachmentList="{x:Null}" AttachmentInputMode="FilePaths" AttachmentsCollection="{x:Null}" Bcc="{x:Null}" Body="[String.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Hi,&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Exception: &lt;/SPAN&gt;&lt;SPAN&gt;No rows found in the sheet: &lt;/SPAN&gt;&lt;SPAN&gt;{0}&lt;/SPAN&gt;&lt;/P&gt;&quot;, SheetName)]" Cc="{x:Null}" ConnectionMode="LegacyConfiguration" ContinueOnError="{x:Null}" DisplayName="Send SMTP Email" Email="{x:Null}" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="520,326" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="True" MailMessage="{x:Null}" Name="KFC Exclusion Automation - Exception" Password="{x:Null}" Port="25" ReplyTo="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecureConnection="None" SecurePassword="{x:Null}" Server="dalmail.tgr.net" Subject="[&quot;No rows found in the sheet &quot;+ SheetName]" TimeoutMS="{x:Null}" To="Manjula.Raju@yum.com" UseISConnection="False" UseOAuth="False">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="FilePaths" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Hi,&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Exception: &lt;/SPAN&gt;&lt;SPAN&gt;No rows found in the sheet: &lt;/SPAN&gt;&lt;SPAN&gt;{0}&lt;/SPAN&gt;&lt;/P&gt;&quot;, SheetName)]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="520,426" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="True" Name="KFC Exclusion Automation - Exception" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="[&quot;No rows found in the sheet &quot;+ SheetName]" To="Manjula.Raju@yum.com" UseISConnection="False" UseOAuth="False">
       <ui:SendMail.AttachmentsBackup>
         <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="FilePaths">
           <usau:BackupSlot.BackupValues>

@@ -114,7 +114,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1282,3937" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1282,3250" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ExceptionScreenshotPath" />
       <Variable x:TypeArguments="x:Boolean" Name="Can_Continue" />
@@ -131,7 +131,7 @@
         <OutArgument x:TypeArguments="x:String">[ServerEnv]</OutArgument>
       </ui:GetRobotAsset.Value>
     </ui:GetRobotAsset>
-    <ui:SendMail ResourceAttachmentList="{x:Null}" AttachmentInputMode="FilePaths" AttachmentsCollection="{x:Null}" Bcc="{x:Null}" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Hi,&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Periodic Automation Started&lt;/SPAN&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;RPA Team&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" Cc="{x:Null}" ConnectionMode="LegacyConfiguration" ContinueOnError="{x:Null}" DisplayName="Send SMTP Email" Email="{x:Null}" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="True" MailMessage="{x:Null}" Name="[ServerEnv]" Password="{x:Null}" Port="25" ReplyTo="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecureConnection="None" SecurePassword="{x:Null}" Server="dalmail.tgr.net" Subject="Periodic Exclusion Automation Started" TimeoutMS="{x:Null}" To="Manjula.Raju@yum.com" UseISConnection="False" UseOAuth="False">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" AttachmentInputMode="FilePaths" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Hi,&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Periodic Automation Started&lt;/SPAN&gt;&lt;SPAN&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;RPA Team&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionMode="LegacyConfiguration" DisplayName="Send SMTP Email" EnableSSL="True" From="AU-KFCRPA@yum.com" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="True" Name="[ServerEnv]" Port="25" SecureConnection="None" Server="dalmail.tgr.net" Subject="Periodic Exclusion Automation Started" To="Manjula.Raju@yum.com" UseISConnection="False" UseOAuth="False">
       <ui:SendMail.AttachmentsBackup>
         <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="FilePaths">
           <usau:BackupSlot.BackupValues>
@@ -161,10 +161,10 @@
       </sap:WorkflowViewStateService.ViewState>
     </ui:SendMail>
     <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="470,165" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="470,1332" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="TryCatch_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -307,15 +307,15 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <If Condition="[Can_Continue]" sap:VirtualizedContainerService.HintSize="470,1494" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[Can_Continue]" sap:VirtualizedContainerService.HintSize="470,2082" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,1132" sap2010:WorkflowViewState.IdRef="Sequence_14">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,1720" sap2010:WorkflowViewState.IdRef="Sequence_14">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,1072" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,1660" sap2010:WorkflowViewState.IdRef="TryCatch_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -354,10 +354,10 @@
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,613" sap2010:WorkflowViewState.IdRef="Sequence_7">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -371,6 +371,7 @@
                         <InArgument x:TypeArguments="x:String" x:Key="exceptionFile">[ExceptionScreenshotPath]</InArgument>
                         <InArgument x:TypeArguments="x:String" x:Key="EmailSubject">[ServerEnv+ "- Periodic Exclusion Exception"]</InArgument>
                         <InArgument x:TypeArguments="x:String" x:Key="ErrorMessage">[exception.Message]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="ServerEnv">[ServerEnv]</InArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
                     <Throw Exception="[exception]" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="Throw_2" />
